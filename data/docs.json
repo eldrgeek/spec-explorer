@@ -1,0 +1,20 @@
+{
+  "documents": [
+    {
+      "id": "siemens",
+      "title": "Siemens 38kV Vacuum Circuit Breaker (Type 38-3AF)",
+      "subtitle": "Instruction manual SG-3528 — installation, operation, maintenance",
+      "file": "siemens.txt",
+      "hasFigure": true,
+      "source": "SIESG-3528 Breaker.pdf (40 pp., scanned — text recovered via OCR)"
+    },
+    {
+      "id": "ieee",
+      "title": "IEEE Std C57.119-2001",
+      "subtitle": "Recommended Practice for Temperature Rise Tests on Oil-Immersed Power Transformers Beyond Nameplate Ratings",
+      "file": "ieee.txt",
+      "hasFigure": false,
+      "source": "IEEE Std C57.119-2001.pdf (47 pp.)"
+    }
+  ]
+}

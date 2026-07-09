@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spec Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo">◆</span>
+        <div>
+          <h1>Spec Explorer</h1>
+          <p class="tagline">Ask technical documents in plain language · explore the breaker diagram</p>
+        </div>
+      </div>
+      <nav class="tabs">
+        <button class="tab active" data-tab="ask">Ask the documents</button>
+        <button class="tab" data-tab="figure">Diagram explorer</button>
+      </nav>
+    </header>
+
+    <!-- ============ ASK PANEL ============ -->
+    <main id="tab-ask" class="panel active">
+      <section class="ask-controls">
+        <label class="field">
+          <span>Search in</span>
+          <select id="docSelect">
+            <option value="both">Both documents</option>
+          </select>
+        </label>
+        <div id="docMeta" class="doc-meta"></div>
+      </section>
+
+      <section class="ask-box">
+        <textarea id="question" rows="2" placeholder="e.g. How do I manually charge the closing spring? · What is the hottest-spot factor?"></textarea>
+        <button id="askBtn">Ask</button>
+      </section>
+
+      <section class="suggestions" id="suggestions"></section>
+
+      <section id="answer" class="answer hidden"></section>
+    </main>
+
+    <!-- ============ FIGURE PANEL ============ -->
+    <main id="tab-figure" class="panel">
+      <div class="figure-switch" id="figureSwitch"></div>
+      <div class="figure-layout">
+        <div class="figure-stage">
+          <h2 class="figure-title" id="figureTitle"></h2>
+          <div class="figure-wrap" id="figureWrap">
+            <img id="figureImg" alt="Interactive diagram" />
+            <div id="hotspotLayer" class="hotspot-layer"></div>
+          </div>
+          <p class="figure-caption" id="figureCaption"></p>
+        </div>
+        <aside class="figure-side">
+          <div class="side-head">
+            <h2>Part detail</h2>
+            <p class="hint">Click a numbered marker on the diagram, or a part in the list.</p>
+          </div>
+          <div id="partDetail" class="part-detail empty">
+            <p>No part selected yet.</p>
+          </div>
+          <div class="side-ask">
+            <button id="askAboutPart" class="link-btn hidden">Ask the manual about this part →</button>
+          </div>
+          <details class="legend-list">
+            <summary>All parts (legend)</summary>
+            <ul id="legendList"></ul>
+          </details>
+        </aside>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "spec-explorer",
+  "version": "1.0.0",
+  "description": "Natural-language query over technical PDFs (IEEE C57.119, Siemens breaker manual) plus a clickable, navigable version of the breaker's Figure 15.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}

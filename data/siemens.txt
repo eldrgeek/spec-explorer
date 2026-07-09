@@ -1,0 +1,3626 @@
+
+===== PAGE 01 =====
+SIEMENS
+
+ions
+
+Instruct
+installation
+
+it Breakers
+
+IrCu
+
+38kV Vacuum C
+
+Operation
+
+SAF
+
+Type 38
+
+intenance
+
+Ma
+
+SG-3528
+
+arranger saitics
+
+ty BE aroty ee
+
+
+===== PAGE 02 =====
+Hazardous voltages and high-speed moving parts.
+
+Will cause death, serious personal injury or equipment
+damage.
+
+Always de-energize and ground the equipment before
+maintenance. Maintenance should be performed only
+by qualified personnel. The use of unauthorized parts in
+the repair of the equipment or tampering by unqualified
+personne will result in dangerous conditions which will
+cause severe personal injury or equipment damage.
+Follow all safety instructions contained herein.
+
+IMPORTANT
+
+The information contained herein is general in nature and not intended for specific
+application purposes. It does not relieve the user of responsibility to use sound practices
+in application, installation, operation, and maintenance of the equipment purchased.
+Siemens reserves the right to make changes in the specifications shown herein or
+to make improvements at any time without notice or obligations. Should a conflict
+arise between the general information contained in this publication and the contents
+of drawings or supplementary material or both, the latter shall take precedence.
+
+QUALIFIED PERSON
+
+For the purpose of this manual a qualified person is one who is familiar with the
+installation, construction or operation of the equipment and the hazards
+involved. In addition, this person has the following qualifications:
+
+(a) is trained and authorized to de-energize, clear, ground, and tag circuits
+and equipment in accordance with established safety practices.
+
+(b) is trained in the proper care and use of protective equipment such as rubber
+gloves, hard hat, safety glasses or face shields, flash clothing, etc., in accordance
+with established safety practices.
+
+(c) is trained in rendering first aid.
+
+SUMMARY
+
+These instructions do not purport to cover all details or variations in equipment, nor to provide for every possible
+contingency to be met in connection with installation, operation, or maintenance. Should further information be
+desired or should particular problems arise which are not covered sufficiently for the purchaser's purposes, the
+matter should be referred to the local sales office.
+
+The contents of this instruction manual shall not become part of or modify any prior or existing agreement, com-
+mitment or relationship. The sales contract contains the entire obligation of Siemens Energy & Automation, Inc.
+The warranty contained in the contract between the parties is the sole warranty of Siemens Energy & Automation,
+Inc. Any statements contained herein do not create new warranties or modify the existing warranty.
+
+
+===== PAGE 03 =====
+28kV Vacuum Circuit Breakers
+
+al
+
+Table of Contents
+
+Introduction and Safety
+
+Introduction .........c.
+
+Qualified Person
+
+Signal Words
+
+Dangerous Procedures...
+Field Service Operation...
+
+NNN WN bly
+
+Receiving, Handling and Storage
+Introduction
+
+Receiving Procedure...
+
+Shipping Damage Claims
+
+Handling Procedure.
+Storage Procedure
+
+Indoor Storage
+
+Outdoor Storage.....
+Space Heating ........-essesseceesseessseseecseeeneneensnssnsnsscacsnsessnsnreresenensanees
+
+Introduction
+
+to bv & & & www
+
+Installation Checks and Initial Functional Tests...............2s+ 4-7
+
+Inspections, Checks and Tests without Control! Power ........-.+
+De-Energizing Control Power in Switchgear .......-.s.sssrecssesrssees
+Spring Discharge Check.......sssseesescsesseseesteeerses .
+Removal from Cell in Indoor (if not on raised pad) and Shelter
+
+Clad Outdoor SWitChQear .......ssessscsssereseeeeseceeesenenecaesternes
+Removal from Cell in Outdoor Non-Walk-In Enclosures, or for
+
+Indoor Switchgear Installed on a Raised Pad........
+Racking Crank Engagement Procedure...........s:-sssssseserssensetsnernes
+Physical Inspections ......
+
+wh
+
+Manual Spring Charging Check
+
+As-Found and Vacuum Check Tests
+
+Automatic Spring Charging Check
+
+Final Mechanical Inspections withour Control Power..............--
+
+Interrupter/Operator Description
+Introduction...
+
+Vacuum Interrupter:
+
+Primary Disconnects
+
+Phase Barriers
+
+Stored Energy Operating Mechanism
+Interrupter/Operator Module
+Construction
+
+Breaker Pole
+Current-Path Assembly
+Vacuum Interrupter
+Switching Operation
+Operating Mechanism
+Construction
+Indirect releases (Tripping Coil)
+Motor Operating Mechanism
+Auxiliary Switch
+Mode of Operation
+Charging
+Closing
+Trip Free Operation
+Opening
+Rapid Auto-Reclosing
+Manual! Operation
+Manually Charging the Closing Spring
+Manual Closing
+Manual Opening
+
+Indirect Releases (Dual Trip or Undervoltage) (optiona))........... 16
+Secondary (Shunt) Release (optional) 16
+Undervoltage Release (optional) 16
+Construction and Mode of Operation of Secondary Release
+
+and Undervoltage Rel 16
+
+Capacitor Trip Device
+Shock Absorber
+Secondary Disconnect
+Auxiliary Switch... we
+MOC (Mechanism Operated Cell) SWitch ........scsscesscetseecneneerens 18
+TOC (Truck Operated Cell) Switch
+Trip Free Interlock.........
+Rating Interlock
+Circuit Breaker Frame
+Ground Disconnect.....
+Circuit Breaker Handling Wheels
+Racking Mechanism ............
+
+Vehicle Description 21-22
+Vehicle Function and Operational Interlocks........ cesses 21
+ALIGN Ment ........sssscsssssscesseeeeeeseseeeesesersessasenenerecesansenseaeeeseneesseneuaeanenenes 21
+interlocks susuavsnuacecescenscaseesecssaeseusneeteeesevaceusesscnnservessessass 21
+Breaker Racking Interlocks...........ee 7 21
+Rating Interlock 21
+Racking Interlock.......ssscssssesseessersersetsesssseeessenstsanetsnesssnnanners 21
+Automatic Closing Spring Energy Release..........sereresseees 22
+Trip Free Interlock Position Mechanical Interlock............++ 22
+Maintenance 23-29
+Introduction and Maintenance Intervals ........:csscseseeeeeteerereeaere 23
+
+Recommended Hand Tools
+Metric ........ cece
+
+AMe@fPican ..... eee
+
+Recommended Maintenance and Lubrication ........cscseeereerees 23
+Removal from Switchgear . 24
+Checks of the Primary Power Path we 24
+Cleanliness Check .....c.ccsscscsrcessserssseereneneesesssesseseneneasensesesesenesee snes 24
+Inspection of Primary Disconnects....... 25
+Checks of the Stored Energy Operator Mechanism .........-.+0 25
+Fastener Check.... vase 25
+Manual Spring Charging and Contact Erosion Checks............. 25
+Electrical Control Checks 26
+Check of the Wiring and Terminals 26
+Check of the Secondary Disconnect 26
+
+Electrical Close and Trip Check (Control! Power Required)........27
+Checks of the Spring Charging Motor
+Vacuum Interrupters.
+Interrupter Vacuum Check Mechanical
+High-Potential Tests
+Vacuum Integrity Check (using Dielectric Test)
+High Potential Test Voltages
+Vacuum Integrity Test Procedure
+
+As-Found Insulation and Contact Resistance Tests........... 29
+Insulation and Contact Resistance Test Equipment ............- 29
+Inspection and Cleaning of Breaker Insulation............-s-seeree 29
+Functional Tests 29
+Overhaul 30-31
+Introduction... 30
+Circuit Breaker Overhaul 30
+Replacement at Overhaul 30
+Replacement of Vacuum Interrupters 30
+Hydraulic Shock Absorber - 31
+Maintenance and Troubleshooting 33-35
+Appendix 36-37
+
+[Cover 1063-93]
+
+1
+
+===== PAGE 04 =====
+Introduction and Satety
+
+Introduction
+
+The 38-3AF family of vacuum circuit breakers is designed to
+meet all the applicable ANSI, NEMA and IEEE standards.
+Successful application and operation of this equipment
+depends as much upon proper installation and maintenance
+by the user as it does upon the careful design and fabrication
+by Siemens.
+
+The purpose of this Instruction Manual is to assist the user in
+developing safe and efficient procedures for the installation,
+maintenance and use of the equipment.
+
+Contact the nearest Siemens representative if any additional
+information is desired.
+
+ADANGER
+
+Hazardous voltages and high-speed moving parts.
+
+Will cause death, personal injury or property
+damage.
+
+To avoid electrical shock, burns and entanglement
+in moving parts this equipment must be installed,
+operated and maintained only by qualified persons
+thoroughly familiar with the equipment, instruction
+manuals and drawings.
+
+Qualified Person
+
+For the purpose of this manual a Qualified Person is one who
+is familiar with the installation, construction or operation of the
+equipment and the hazards involved. In addition, this person
+has the following qualifications:
+
+* Training and authorization to energize, de-energize, clear,
+ground and tag circuits and equipment in accordance with
+established safety practices.
+
+* Training in the proper care and use of protective equipment
+such as rubber gloves, hard hat, safety glasses, face shields,
+flash clothing, etc., in accordance with established safety pro-
+cedures.
+
+Training in rendering first aid.
+
+Signal Words
+
+The signal words “Danger”, “Warning” and “Caution” used
+in this manual indicate the degree of hazard that may be
+encountered by the user. These words are defined as:
+
+Danger - Indicates an imminently hazardous situation
+which, if not avoided, will result in death or serious injury.
+
+Warning - Indicates a potentially hazardous situation which, if
+not avoided, could result in death or serious injury.
+
+Caution - indicates a potentially hazardous situation which,
+if not avoided, may result in minor or moderate injury.
+
+Dangerous Procedures
+In addition to other procedures described in this manual as
+dangerous, user personnel must adhere to the following:
+
+1. Always work on de-energized equipment. Always de-
+energize a breaker, and remove it from the switchgear
+before performing any tests, maintenance or repair.
+
+2. Always perform maintenance on the breaker after the
+spring-charged mechanisms are discharged.
+
+3. Always let an interlock device or safety mechanism per-
+form its function without forcing or defeating the device.
+
+Field Service Operation
+
+Siemens can provide competent, well-trained Field Service
+Representatives to provide technical guidance and advisory
+assistance for the installation, overhaul, repair and mainte-
+nance of Siemens equipment, processes and systems.
+Contact regional service centers, sales offices or the factory
+for details.
+
+===== PAGE 05 =====
+Receiving, Handling and Storage
+
+a
+
+Introduction
+
+This manual covers the Receiving, Handling and Storage
+instructions for Type 38-3AF vacuum circuit breakers shipped
+separately from the switchgear. This section of the manual is
+intended to help the user identify, inspect and protect the cir-
+cuit breaker prior to its installation.
+
+Receiving Procedure
+
+Make a physical inspection of the shipping container before
+removing or unpacking the circuit breaker. Check for shipment
+damage or indications of rough handling by the carrier. Check
+each item against the manifest to identify any shortages.
+
+Accessories such as the manual charging crank, the racking crank
+and the split plug jumper (optional) are shipped separately.
+
+Shipping Damage Claims (when applicable) - Follow normal
+shipment damage procedures, which should include:
+
+1. Check for visible damage upon arrival.
+
+2. Visible damage must be noted on delivery receipt, and
+acknowledged with driver's signature. Notation, “Possible
+internal damage, subject to inspection” must be on deliv-
+ery receipt.
+
+3. Notify the Siemens Sales office immediately of any ship-
+ment damage.
+
+4. Arrange for carrier's inspection. Do not move the unit from
+its unloading point.
+
+Handling Procedure
+
+1. Carefully remove the shipping carton from the circuit
+breaker. Keep the shipping pallet for later use if the breaker
+is to be stored prior to its installation.
+
+2. Inspect for concealed damage. Notification to carrier must
+take place within 15 days to assure prompt resolution of claims.
+
+3. Each circuit breaker should be appropriately lifted using a
+Siemens lift truck or lift sling. Avoid crushing the side pan-
+
+els of the breaker, or damaging the primary disconnect
+subassemblies.
+
+AWARNING
+Heavy weight.
+
+a
+
+Type 38-3AF circuit breakers weigh between 800 and
+1000 pounds (364-455 kg).
+
+Can cause death, serious injury, or property
+damage.
+
+Obtain the services of a qualified rigger prior to
+hoisting the circuit breaker to assure adequate
+safety margins in the hoisting equipment and pro-
+cedures to avoid damage.
+
+4. The palleted circuit breaker can also be moved using a
+properly rated fork-lift vehicle. The pallets are designed for
+movement by a standard fork-lift vehicle.
+
+Storage Procedure
+
+1. Whenever possible, install circuit breakers in their
+assigned switchgear enclosures for storage. Follow
+instructions contained in the Switchgear Instruction
+Manual, SG-3518.
+
+2. When the breaker will be placed on its pallet for storage,
+be sure the unit is securely bolted to the pallet and cov-
+ered with polyethylene film at least 10 mils thick.
+
+Indoor Storage - Whenever possible, store the circuit breaker
+indoors. The storage environment must be clean, dry and free
+of such items as construction dust, corrosive atmosphere,
+mechanical abuse and rapid temperature variations.
+
+Outdoor Storage - Outdoor storage is not recommended.
+When no other option is available, the circuit breaker must be
+completely covered and protected from rain, snow, dirt and all
+other contaminants.
+
+Space Heating - Space heating must be used for both indoor
+and outdoor storage to prevent condensation and corrosion.
+During storage, 250 watts per breaker of space heating is rec-
+ommended. If the circuit breakers are stored inside the
+switchgear enclosures, and the switchgear is equipped with
+space heaters, energize the space heaters.
+
+===== PAGE 06 =====
+Installation Checks and Initial Functional Tests
+
+Introduction
+
+This section provides a description of the inspections, checks
+and tests to be performed on the circuit breaker prior to opera-
+tion in the metal-clad switchgear.
+
+Inspections, Checks and Tests without Control Power
+Vacuum circuit breakers are normally shipped with their prima-
+ry contacts open and their springs discharged. However, it is
+critical to first verify the discharged condition of the spring-
+loaded mechanisms after de-energizing control power.
+
+De-Energizing Control Power in Switchgear - When the cir-
+cuit breaker is mounted in switchgear, open the control power
+disconnect device in the metal-clad switchgear cubicle.
+
+The control power disconnect device is normally located on
+the secondary device panel in the upper cell of the vertical
+section. The normal control power disconnect device is a pull-
+out type fuse holder. Removal of the fuse holder de-energizes
+control power to the circuit breaker in the associated
+switchgear cell. In some switchgear assemblies, a molded
+case circuit breaker or knife switch is used in lieu of the pull
+out type fuse holder. Opening this circuit breaker or switch
+accomplishes the same result: control power is disconnected.
+
+Spring Discharge Check (Figure 1) - Perform the Spring
+Discharge Check before removing the circuit breaker from the
+pallet or removing it from the switchgear.
+
+The spring discharge check should be performed after de-
+energizing contro! power. This check assures that both the
+tripping and closing springs are fully discharged.
+
+A DANGER
+
+Hazardous voltages and high-speed moving parts.
+
+Will cause death, severe personal injury, or
+property damage.
+
+Read instruction manuals, observe safety instruc-
+tions and use qualified personnel.
+
+NOTE: Do not perform Spring Discharge Check if the circuit
+breaker is in the CONNECT position. Open circuit breaker
+and rack to the DISCONNECT position, and then perform
+Spring Discharge Check.
+
+1. Press red Trip pushbutton.
+
+2. Press black Close pushbutton.
+
+3. Again press red Trip pushbutton.
+
+4. Verify Spring Condition indicator shows DISCHARGED.
+
+5. Verify Main Contact Status Indicator shows OPEN.
+Removal from Cell in Indoor (if not on raised pad) and
+Shelter-Clad Outdoor Switchgear
+
+After performing the Spring Discharge Check (with control
+
+power de-energized), remove the circuit breaker from its
+switchgear cubicle.
+
+1. Insert the racking crank on the racking screw on the front
+of the breaker cell, and push in (see “Racking Crank
+Engagement”). This action operates the racking interlock
+latch. Figure 2 shows racking of a circuit breaker.
+
+2. Rotate the racking crank counterclockwise until the
+breaker is in the DISCONNECT position.
+
+3. Move the breaker release latch (on the floor of the cell
+near the right side of the circuit breaker) to the left and pull
+the circuit breaker out from the DISCONNECT position.
+The breaker can now be removed from cubicle.
+
+4. The circuit breaker is now free to be rolled out on the floor
+using the handles on the front. The wheels of the circuit break-
+er are at floor level (unless the switchgear is installed on a
+raised pad), and one person can easily handle the unit.
+
+RCE
+
+SRaeen ais Ni
+af
+MU
+
+FT
+
+1059-93
+
+Figure 1. Front Panel Controls of Type 38-3AF Circuit Breaker
+
+Figure 2. Racking of 38-3AF Circuit Breaker
+
+===== PAGE 07 =====
+Installation: Checks and Initial Functional Tests
+
+Removal from Cell in Outdoor Non-Walk-In Enclosures, or
+for Indoor Switchgear Installed on a Raised Pad
+
+Removal of the breaker from a non-walk-in outdoor switchgear
+assembly is similar to removal of a breaker at floor level, with
+several additional steps.
+
+Figure-3.shows one of the two breaker extension rails being
+inserted into the fixed rails within the breaker cell. The rails
+engage locking pins in the fixed rails to secure them in position.
+
+1309-94
+
+Figure 3. Use of Extension Rails for Removal of Circuit
+Breaker not at Floor Level
+
+The procedure for removal of a circuit breaker not located at
+floor level is:
+
+1. Insert the two extension rails into the fixed rails. Be sure
+the extension rails are properly secured in place. (This can
+be done at Step 4 if preferred.}
+
+2. Insert the racking crank on the racking screw on the front
+of the breaker cell, and push in (see “Racking Crank
+Engagement Procedure”). This action operates the rack-
+ing interlock latch.
+
+3....Rotate the racking crank counterclockwise until the
+breaker is in the DISCONNECT position.
+
+4. If you have not yet installed the extension rails, do so now.
+
+AWARNING
+
+Heavy Weight.
+
+Can cause death, serious injury, or property damage.
+
+Always use extension rails to remove or install cir
+cuit breaker in cells not installed at floor level.
+
+5. Move the breaker release latch to the left and pull the cir-
+cuit breaker out from the DISCONNECT position. The
+breaker is now free to be rolled out on the two extension
+rails using the handles on the front of the circuit breaker.
+
+6. Remove the breaker from the two extension rails using
+the approved Siemens breaker lifting device or a Siemens
+lifting sling and a suitable crane.
+
+7. Lift the two extension rails and withdraw them from the
+switchgear.
+
+Type 38-3AF circuit breakers weigh between 800 and 1000
+pounds (364-455 kg), depending upon their ratings. The breaker
+can be moved using a properly rated crane and lift sling. A lift
+sling can be attached to the breaker, and then used to hoist the
+circuit breaker vertically clear of the extension rails. When clear,
+remove the rails and lower the circuit breaker to the floor.
+
+AWARNING
+
+Heavy Weight.
+
+Can cause death, serious injury, or property
+damage.
+
+Never transport a circuit breaker on a lift truck with
+the circuit breaker in the raised position.
+
+Racking Crank Engagement Procedure
+
+A crank for racking the drawout unit is provided as a standard
+accessory. Racking of a circuit breaker can be accomplished
+with the drawout compartment front door open or through a
+small opening (or window) in the front door, with the door
+closed. Racking of a rollout fuse truck is accomplished with
+the compartment front door open.
+
+The racking crank consists of an offset handle end with a custom
+socket assembly welded to the end. The socket end of the
+crank is designed to engage the shoulder of the racking mech-
+anism shaft and remain engaged during racking by means of
+two spring plungers located 180 degrees from each other. The
+socket plungers operate in a manner similar to the retainers of
+an ordinary mechanic’s socket wrench.
+
+The portion of the racking mechanism shaft which is visible is
+cylindrical, and the shoulder of the racking mechanism shaft is
+hidden by a shroud until the engagement procedure starts.
+The square socket end of the crank will only engage the shoulder
+of the shaft if it is aligned properly.
+
+The suggested procedure to engage the racking mechanism is
+as follows:
+
+1. The breaker must be open. (The racking shroud cannot be
+moved if the breaker is closed).
+
+2. Hold the socket end of the crank in one hand and the
+crank handle in the other hand.
+
+3. Place the socket over the end of the racking mechanism
+shaft. Align the socket with the shoulder on the racking
+mechanism shaft. Note: If the socket is not aligned, the
+socket will not be able to engage the shoulder of the racking
+mechanism shaft.
+
+5
+
+===== PAGE 08 =====
+Installation Checks and Initial Functional Tests
+
+4, Once alignment is achieved, firmly push the crank and
+socket assembly toward the racking mechanism.
+
+5. When properly engaged, the crank should remain connected
+to the racking mechanism, due to the socket plungers. If the
+crank does not remain in position, adjust the spring plungers
+clockwise one-half tum. This will increase the contact pressure
+of the spring plunger.
+
+6. To remove the crank, simply pull the assembly off of the
+racking mechanism shaft.
+
+NOTE: If the effort to rack’ the circuit breaker increases consider
+ably during racking; or if turning of the racking crank requires
+excessive force, stop racking immediately. Do not try to “force”
+the racking crank to rotate, or parts of the circuit breaker or
+racking mechanism could be damaged. Determine the source
+of the problem and correct it before continuing with racking.
+
+Physical Inspections
+1. Verify that rating of the circuit breaker is compatible with
+both the system and the switchgear.
+
+2. Perform a visual shipping damage check. Clean the breaker
+of all shipping dust, dirt and foreign material.
+
+Manual Spring Charging Check
+
+1. Insert the manual spring charging crank into the manual
+charge handle socket as shown in Figure 4. Turn the
+crank clockwise (about 45 revolutions) until the spring con-
+dition indicator shows the closing spring is Charged.
+
+2. Repeat the Spring Discharge Check.
+
+3. Verify that the springs are discharged and the breaker pri-
+mary contacts are open by indicator positions.
+
+Figure 4. Manual Charging of Closing Springs
+
+As-Found and Vacuum Check Tests - Perform and record
+the results of both the As-Found insulation test and the vacu-
+um check high-potential test. Procedures for these tests are
+described in the Maintenance Section of this manual.
+
+Automatic Spring Charging Check
+
+Note: A temporary source of contro! power and test leads
+may be required if the control power source has not been con-
+nected to the switchgear. (Refer to the specific wiring infor-
+mation and rating label for your circuit breaker to determine
+the voltage required and where the control voltage signal
+should be applied. Usually, spring charging power is connect-
+ed to secondary disconnect fingers SD16 and SD15, closing
+control power to SD13 and SD15, and tripping power to SD1
+and SD2.) Note, secondary disconnect terminals are num-
+bered 1-16, from right to left. When control power is connect-
+ed to the 38-3AF circuit breaker, the closing springs should
+automatically charge.
+
+The automatic spring charging features of the circuit breaker
+must be checked. Control power is required for automatic
+spring charging to take place.
+
+1. Open control power circuit by opening the control power
+disconnect device.
+
+2. Install breaker end of split plug jumper (if furnished) as
+shown in Figure 5 to the circuit breaker. The plug jumper
+is secured over the circuit breaker’s secondary contacts,
+by means of screws.
+
+3. Install the switchgear end of the plug jumper shown in
+Figure 6 to the secondary disconnect block inside the
+switchgear cubicle. The jumper slides into place. The plug
+jumper interconnects all control power and signal leads
+(e.g., remote trip and close contacts) between the
+switchgear and the circuit breaker.
+
+4. Energize (close) the control power circuit disconnect.
+
+5. Use the Close and Trip controls (Figure 1) to first Close
+and then Open the circuit breaker contacts. Verify contact
+positions visually by observing the Open/Closed indicator
+on the circuit breaker.
+
+6. De-energize control power by repeating Step 1.
+Disconnect the plug jumper from the switchgear first and
+next from the circuit breaker.
+
+7. Perform the Spring Discharge Check again. Verify that the
+closing springs are discharged and the primary contacts of
+the 38-3AF circuit breaker are open.
+
+===== PAGE 09 =====
+Installation Checks and Initial Functional Tests
+
+He
+
+Final Mechanical Inspections without Control Power
+
+4. Make a final mechanical inspection of the circuit breaker.
+Verify that the contacts are in the Open position, and the
+closing springs are Discharged.
+
+2. Check the upper and lower primary studs and contact fingers
+shown in Figure 7. Verify mechanical condition of finger
+springs and the disconnect studs, check for loose hard-
+ware, damaged or missing primary disconnect contact fingers,
+and damaged disconnect sheds.
+
+3. Coat movable primary contact fingers (Figure 7) and the
+secondary disconnect contacts (Figure 23) with a light film
+of Siemens Contact Lubricant No 15-171-370-002.
+
+4. The 38-3AF vacuum circuit breaker is ready for. installation
+into its assigned cubicle of the metal-clad switchgear.
+Refer to removal procedures and re-install the circuit
+breaker into the switchgear.
+
+5. Refer to the Switchgear Instruction Manual for functional
+tests of an installed circuit breaker.
+
+Figure 6. Split Plug Jumper Connected to Switchgear
+
+[1077-93 }
+
+Figure 7. Breaker Primary Disconnects
+
+===== PAGE 10 =====
+Interrupter/Operator Description
+
+Introduction
+
+The Type 38-3AF vacuum circuit breaker is of drawout con-
+struction designed for use in medium voltage, metal-clad
+switchgear. The 38-3AF circuit breaker conforms to the
+requirements of ANS! Standards, including C37.20.2, C37.04,
+C37.06, C37.09 and C37.010.
+
+Type 38-3AF circuit breakers consist of three vacuum inter-
+rupters, a stored energy operating mechanism, necessary
+electrical controls and interlock devices, disconnect devices to
+connect the breaker to both primary and control power and an
+operator housing. Insulating barriers are located between the
+vacuum interrupters and along the sides.
+
+This section describes the operation of each major sub-assem-
+bly as an aid in the operation, installation, maintenance and
+repair of the type 38-3AF vacuum circuit breaker.
+
+; | 1060-93
+Figure 8. Front View of Type 38-3AF Breaker with Panel Removed
+
+Vacuum Interrupters
+
+The operating principle of the type 38-3AF vacuum interrupter
+is simple. Figure 9 is a cutaway view of a typical vacuum inter-
+rupter. The entire assembly is sealed after a vacuum is estab-
+lished. The interrupter stationary contact is connected to the
+upper disconnect stud of the circuit breaker. The interrupter
+movable contact is connected to the lower disconnect stud
+and driving mechanism of the circuit breaker. The metal bel-
+lows provides a secure seal around the movable contact, pre-
+venting loss of vacuum while permitting vertical motion of the
+movable contact.
+
+31.1 Stationary contact surface
+
+{ 4——— 32 Ceramic insulator
+
+| 33 Arc shield
+
+f—— 31 Stationary contact
+
+Moving contact
+
+VA————— 32 Ceramic insulator
+
+34 Metal bellows
+
+py
+IN
+
+35 Guide bushing
+
+36.1 Movable contact stem
+
+|
+
+0D
+
+Figure 9. Cutaway View of Vacuum Interrupter
+
+When the two contacts separate, an arc is initiated which con-
+tinues conduction up to the following current zero. At current
+zero, the arc extinguishes and any conductive metal vapor
+which has been created by and supported the arc condenses
+on the contacts and on the surrounding vapor shield. Contact
+materials and configuration are optimized to achieve arc
+motion, resist welding, and to minimize switching disturbances.
+
+Primary Disconnects
+
+Figure 10 is a side view of the circuit breaker with interphase
+and outer barriers removed to show details of the primary dis-
+connects. Each circuit breaker has three upper and three lower
+primary disconnects. Upper primary disconnects are connéct-
+ed to the stationary contacts of the vacuum interrupters, and
+the lower primary disconnects to the movable contacts. Each
+disconnect arm has a set of multiple spring loaded fingers that
+mate with bus bars in the metal-clad switchgear. The number
+of fingers in the disconnect assembly varies with the continu-
+ous and/or momentary rating of the circuit breaker.
+
+There are three insulating push rods. Each push rod connects
+the movable contact of one of the vacuum interrupters to the
+jack shaft driven by the closing and tripping mechanism.
+Flexible connectors ensure secure electrical connections
+between the movable contacts of each interrupter and its bot-
+tom primary disconnect.
+
+===== PAGE 11 =====
+Interrupter/Operator Description
+
+[1066-93 |
+
+Figure 10. Upper and Lower Primary Disconnects
+
+Phase Barriers
+
+Figure 11 is a rear view of a type 38-3AF circuit breaker that
+shows the two outer (phase to ground) insulating barriers and
+the two inner (phase to phase) barriers. These four plates of
+glass polyester insulating material are attached to the circuit
+breaker and provide suitable electrical insulation between the
+vacuum interrupter primary circuits and the housing.
+
+Figure 11. 38-3AF Breaker with Interphase and Outer Phase
+Barriers Installed
+
+Stored Energy Operating Mechanism
+
+The stored energy operating mechanism of the type 38-3AF
+circuit breaker is an integrated arrangement of springs, sole-
+noids and mechanical devices designed to provide a number
+of critical functions. The energy necessary to close and open
+the contacts of the vacuum interrupters is stored in powerful
+tripping and closing springs. These springs are normally
+charged automatically, but there are provisions for manual
+charging. The operating mechanism that controls charging,
+closing and tripping functions is fully trip-free, i.e., spring
+charging does not automatically change the position of the pri-
+mary contacts, and the closing function may be overridden by
+the tripping function at any time. The operation of the stored
+energy mechanism will be discussed later in this section.
+
+The vacuum circuit breaker consists of a combination of two
+sub-assemblies. The “interrupter/operator” module is a uni-
+tized assembly of the three vacuum interrupters, primary insu-
+lators, and operating mechanism. The second module, the
+“Vehicle” is the supporting drawout structure module for the
+operating mechanism. The vehicle provides primary stud
+extensions, closed breaker racking interlocks, closing spring
+discharge feature, and other requirements needed to ensure
+safe and reliable use during racking and fully connected opera-
+tions.
+
+These two sub-assemblies will be separately described.
+
+Interrupter/Operator Module
+
+The interrupter/operator module consists of the three poles,
+each with its vacuum interrupters and primary insulators,
+mounted on the common motor or hand charged spring stored
+energy operating mechanism housing. This module is shown
+in Figure 12.
+
+Construction (Refer to Figures 12 - 15)
+
+Each of the circuit breaker poles are fixed to the rear of the
+operating mechanism housing (60) by two cast-+esin insulators
+(16). The insulators also connect to the upper (20) and lower (40)
+pole supports which in turn support the ends of the vacuum
+interrupter (30). The pole supports are aluminum castings on all
+circuit breaker ratings. Primary stud extensions are attached
+directly to the upper pole support (20) and lower terminal (29).
+
+The energy-storing mechanism and all the control and actuat-
+ing devices are installed in the mechanism housing (60). The
+mechanism is of the spring stored energy type and is mechan-
+ically and electrically trip free.
+
+===== PAGE 12 =====
+Interrupter/Operator Description
+
+Figure 12. Interrupter/Operating Mechanism Module
+
+¢ Manual Spring Charge
+Port
+
+¢ Manual Close Button
+
+© Charge-Discharge
+Indicator
+
+¢ Manual Open Button
+© Open-Close Indicator
+
+© Operation Counter
+
+Figure 13. Operating Mechanism Controls and Indicators
+The close-open indicator (55), closing spring charge indicator
+
+(58), and the operation counter (59) are located on the front of
+the mechanism housing (60).
+
+10
+
+Breaker Pole (Figure 14)
+
+The vacuum interrupter (30) is rigidly connected to the upper
+termina! and pole support (20) by its terminal bolt (31.2). The
+lower part of the interrupter is stabilized against lateral forces
+by a centering ring (28.1) on the pole support (40). The exter-
+nal forces due to switching operations and the contact pres-
+sure are absorbed by the struts (28).
+
+Current-Path Assembly (Figure 14)
+
+The current-path assembly consists of the upper terminal and
+pole support (20), the stationary contact (81}, and the moving
+contact (36), which is connected with the lower terminal (29)
+by terminal clamp (29.2) and a flexible shunt (29.1).
+
+Vacuum Interrupter (Figure 9)
+
+The moving contact (36) motion is aligned and stabilized by
+guide bushing (35). The metal bellows (34) follows the travel of
+the contact (36) and seals the interrupter against the surround-
+ing atmosphere.
+
+===== PAGE 13 =====
+Interrupter/Operator Description
+
+205 ane
+16 Cast resin insulator
+31.2 NJ 20 Upper pole support
+60 28 Strut
+29 Lower terminal
+4 q 29.1 Flexible shunt
+27 — '
+ieee i
+th 29.2 Terminal clamp
+W —— tt ~ 30 Vacuum interrupter
+i 31 Stationary contact
+30
+28 aN 31.2 Stationary terminal bolt
+: 36 Moving contact
+I
+@ 3 — 64.2 36.3 Eye bolt
+28.1—— 1 36 40 Lower pole support
+aN 16 mde) ~ 64.3 48 Insulated coupler
+29,2 —~+ 48.6 Lever
+29.1—J 48.9 Guide link
+: . Ae : - 49 Contact pressure spring
+i R oo o
+36.3——] ff | I Mg > 63 60 Operating mechanism housing
+Hime iM is 48 Hi
+ay Loe 63.7 63 Jack shaft
+29 —— re Se
+tA ; 63.7 Lever
+49 — 48.9 49
+64.1. Pawl
+48-6 48.5 64.2 Pawt
+Figure 14. Section of a type 38-3AF Circuit Breaker Pole
+Switching Operation (Figure 14) Operating Mechanism
+
+When a closing command is initiated, the closing spring,
+which was previously charged by hand or by the motor, actu-
+ates the moving contact (36) through the jack shaft (63), lever
+(63.7), insulated coupler (48), and lever (48.6).
+
+The motion of the insulated coupler is converted into the vertical
+movement of the moving contact. The moving contact motion
+is controlled by guide link (48.9), which pivots on support (40)
+and eye bolt (36.3).
+
+During closing, the tripping spring and the contact pressure springs
+(49) are charged and latched by pawl (64.1). The closing spring is
+recharged immediately after closing.
+
+In the closed state, the necessary contact pressure is maintained
+by the contact pressure spring and atmospheric pressure. The
+contact pressure spring automatically compensates for contact
+erosion, which is very small.
+
+When a tripping command is given, the energy stored in the
+tripping and contact pressure springs is released by pawl
+(64.2). The opening sequence is similar to the closing
+sequence. The residual force of the tripping spring arrests the
+moving contact (36) in the open position.
+
+The operating mechanism is comprised of the mechanical and
+electrical components required to:
+
+1. Charge the closing springs with sufficient potential energy
+to close the breaker and to store opening energy in the
+tripping and contact pressure springs.
+
+2. Means to release closing and tripping actions.
+
+3. Means of transmitting force and motion to each of three
+pole positions.
+
+4. Operate all these functions automatically thru electrical
+charging motor, cutout switches, antipump relay, release
+(close and trip) solenoids, and auxiliary switches.
+
+5. Provide indication of the breaker status (open/closed), spring
+condition (charged/discharged), and number of operations.
+
+11
+
+===== PAGE 14 =====
+Interrupter/Operator Description
+
+62.2
+
+50.3
+
+62.6 62.5.2
+
+50.3.1 62.3 62.5 53
+
+68
+62 53.1
+55.1
+50.4 54.1
+68.1
+58
+54
+50.4.1 :
+-— 64.1
+62.8.1
+2
+55
+64.3
+59
+60 61.8 64 | 62.8] 62.8.2 63
+63.5 62.8.3 (behind 62.8)
+50 Manual spring charging crank 58 Closing spring charge indicator 63 Jack shaft
+50.1 Manual spring charging access hole 59 Operation counter 63.1 Lever
+50.2 Charging mechanism gear box 61.8 Shock absorber 63.5 Lever
+50.3.1 Driver 62 Closing spring 63.7 Lever
+50.4 Spring charging motor 62.2 Crank 64 Tripping spring
+50.4.1 Limit switches 62.3 Cam disc 64.1 Pawl
+53 Close pushbutton 62.5 Lever 64.2 Paw!
+53.1 Spring release coil 52SRC 62.5.2 Latching paw! 64.3 Lever
+54 Trip pushbutton 62.6 Drive lever 64.3.1 Paw! roller
+54.1 Shunt trip coil 52T 62.8 Trip free coupling rod 68 Auxiliary switch
+55 Close-open indicator 62.8.1 Spring return latch 68.1 Link
+55.1 Linkage 62.8.2 Trip free coupling link
+56.2 Control lever 62.8.3 Trip free coupling lever
+| 1273-94
+
+Figure 15. Stored Energy Operating Mechanism
+
+12
+
+
+===== PAGE 15 =====
+Interrupter/Operator Description
+
+Construction
+
+The essential parts of the operating mechanism are shown in
+Figure 15. The control and sequence of operation of the
+mechanism is described in Figure 17.
+
+Indirect Releases (Tripping Coils)
+
+The shunt releases (54.1) convert the electrical tripping pulse
+into mechanical energy to release the trip latch and open the
+breaker. The undervoltage release may be electrically actuated
+by a make or a break contact. If a make contact is used, the
+coil is shorted out, and a resistor must be used to limit the cur-
+rent. The undervoltage release option mounts to the immedi-
+ate right of the trip coil (54.1).
+
+Motor Operating Mechanism
+
+The spring charging motor (50.4) is bolted to the charging
+mechanism (50.2) gear box installed in the mechanism hous-
+ing. Neither the gear box mechanism nor the motor require
+any maintenance.
+
+Auxiliary Switch
+The auxiliary switch (68) is actuated by the jack shaft (63) and
+link (68.1).
+
+Mode of Operation
+
+The operating mechanism is of the stored-energy trip free
+type, i.e., the charging of the spring is not automatically fol-
+lowed by the contacts changing position, and the closing func-
+tion may be overridden by a trip command at any time.
+
+When the stored-energy mechanism has been charged, the
+circuit breaker can be closed manually or electrically at any
+desired time. The mechanical energy for carrying out an “open-
+close-open” sequence for auto-reclosing duty is stored in the
+closing and tripping springs.
+
+Charging
+
+The details of the closing spring charging mechanism are
+shown in Figure 15. The charging shaft is supported in the
+charging mechanism (50.2), but is not coupled mechanically
+with the charging mechanism. Fitted to it are the crank (62.2)
+at one end, and the cam (62.3), together with lever (62.5), at
+the other.
+
+When the charging mechanism is actuated by hand with a
+hand crank or by a motor (50.4), the flange (50.3) turns until
+the driver (50.3.1) locates in the cutaway part of the cam disc
+(62.3), thus causing the charging shaft to follow. The crank
+(62.2) charges the closing spring (62). When this has been
+fully charged, the crank actuates the linkage (55.1) via control
+lever (55.2) for the “closing spring charged” indicator (55), and
+actuates the limit switches (50.4.1) for interrupting the motor
+supply. At the same time, the lever (62.5) at the other end of
+the charging shaft is securely locked by the latching pawl
+(62.5.2). When the closing spring is being charged, cam disc
+(62.3) follows idly, i-e., it is brought into position for closing.
+
+Closing
+
+If the breaker is to be closed locally, the closing spring is
+released by pressing the close button (53). In the case of
+remote control, the spring release coil 52SRC (53.1) unlatches
+the closing spring.
+
+As the closing spring discharges, the charging shaft is turned
+by crank (62.2). The cam disc (62.3) at the other end of the
+charging shaft actuates the drive lever (62.6), with the result
+that jack shaft (63) is turned by lever (63.5) via the trip free
+coupling rod (62.8). At the same time, the levers (63.1, 63.5,
+and 63.7) fixed on the jack shaft operate the three insulated
+couplers for the breaker poles. Lever (63.7) changes the open-
+close indicator to closed. Lever (63.5) charges the tripping
+spring (64) during closing, and the breaker is latched in the
+closed position by lever (64.3) with pawl roller (64.3.1) and by
+pawl (64.2). Lever (63.1) actuates the auxiliary switch through
+the linkage (68.1).
+
+The crank (62.2) on the charging shaft moves the linkage
+(55.1) by acting on the contro! lever (55.2). The closing spring
+charged indication is thus canceled and, the limit switches
+(50.4.1) switch in the control supply to cause the closing
+spring to recharge immediately.
+
+Trip Free Operation
+
+The trip free coupling rod (62.8) permits the immediate de-cou-
+pling of the drive lever (62.6) and the jack shaft (63) to override
+closing action by trip command or by means of the racking
+interlocks.
+
+The trip free coupling rod (62.8) forms a link between the drive
+lever (62.6) and the jack shaft (63). The rigidity of this link
+depends upon a spring return latch carried within the coupling
+rod. The latch pivots within the coupling rod and is normally
+positioned to ensure the rigidity of the coupling rod. Trip free
+coupling link (62.8.2) and trip free coupling lever (62.8.3) cause
+the spring return latch position to be dependent upon the nor-
+mal tripping components and the racking interlock. Thus,
+whenever a trip command is applied or the breaker is not in
+the fully CONNECT or TEST position, the trip free coupling rod
+is no longer rigid, effectively decoupling the drive lever and
+jack shaft. Under these conditions the vacuum interrupter con-
+tacts cannot be closed.
+
+Opening
+
+If the breaker is to be tripped locally, the tripping spring (64) is
+released by pressing the trip button (54). In the case of an
+electrical command being given, the shunt trip coil 52T (64.1)
+unlatches the tripping spring (64).
+
+The tripping spring turns the jack shaft (63) via lever (63.5); the
+sequence being similar to that for closing.
+
+13
+
+===== PAGE 16 =====
+Interrupter/Operator Description
+
+Rapid Auto-Reclosing
+
+Since the closing spring is automatically recharged by the
+motor operating mechanism when the breaker has closed, the
+operating mechanism is capable of an open-close-open duty
+cycle as required for rapid auto-reclosing.
+
+Manual Operation
+Electrically operated vacuum circuit breakers can be operated
+manually if the contro! supply should fail.
+
+Manually Charging the Closing Spring (Figure 16).
+
+insert the hand crank (50) in hole (50.1) and turn it clockwise
+(about 45 revolutions) until the indicator (55) shows
+“Charged”. The hand crank is coupled with the charging
+mechanism via an over-running coupling; thus the operator is
+not exposed to any risk should the control supply recover dur-
+ing charging. ,
+
+14
+
+Figure 16.
+
+wee Na EAS
+
+Use of Manual Spring Charging Crank
+
+
+===== PAGE 17 =====
+Interrupter/Operator Description
+
+{ Control voltage applied »
+
+|
+Undervoltage Spring Charging
+Device 27* Motor 88
+Picks Up Energized
+
+Closing Spring
+Fully Charged
+
+—
+
+¥
+
+Closing
+
+i]
+
+LS21 and LS22 LS3 opens in LS41 closes to
+open series with anti- signal closing
+To de-energize pump relay 52Y springs charged
+spring charging
+motor 88
+------------- }-----2+--------------
+"1 No action! Spring release
+' Open 52b in . Breaker solenoid actuated
+, | Series with spring Closing thru the closed
+1 | release solenoid command 52b contact and
+t | (52SRC) blocks | Breaker Breaker} two NC contacts
+1 | spring release losed Closin open of relay 52Y
+' not charged v
+Ly
+' No action! The closing The tripping
+' Relay 52Y picks spring is spring is charged
+' up thru closed unlatched
+' LS3 contact and
+' opens
+Ly
+'
+1
+1
+'
+4
+1
+'
+
+Therefore, when the
+breaker is closed both
+its springs are charged
+(The closing spring
+charges the tripping
+spring during closing).
+As a result, the breaker
+is capable of an O+-CO
+operating cycle (dead
+time “t' = less than 0.3s)
+
+The dashed line shows
+the operating sequence
+initiated by the closing
+command.
+
+* Optional items
+
+(
+
+Anti-pumping feature (Device 52Y)}
+
+Care must be taken to see that a continuously
+applied closing command does not cause
+
+the breaker to reclose after it has tripped out on a
+fault, otherwise it may sustain damage by the
+‘pumping’ effect
+
+( Continuous closing command )
+
+=
+
+Spring Release Coil 52SRC,unlatches closing
+spring and breaker closes
+
+v
+
+Motor cutoff switched LS21, LS22 and LS3 are
+closed because closing spring is discharged
+
+=
+
+Before the spring charge motor 88 has
+recharged the closing spring and opened LS3,
+anti-pump relay 52Y picks up and seals in
+
+v
+
+The anti-pump relay 52Y opens two contacts in
+series with the Spring Release Coil 52SRC
+
+vv
+
+The spring release solenoid is now blocked
+and can not be activated until springs are fully
+charged and close command is removed
+
+52a contacts in Breaker auxiliary The circuit Contacts LS21 and
+series with the switches 52a breaker closes LS22 close to
+tripping solenoid (NO) and 52b energize motor 88.
+close to enable af] (NC) change [ PPP s3 closes & LS4
+trip operation state opens to cancel |,
+closing spring signal }
+Vo e8eoTe eee cee eee I
+Rapid auto-reclosing
+The closing spring is Tripping
+recharged automatically
+as described above.
+
+Trip Command
+
+)
+
+v
+
+Y
+
+can only be
+
+series connected
+52a contact is
+closed.
+
+Shunt Trip Coil 52T
+
+activated when the
+
+Undervoltage device 27 is
+activated by opening a NC contact
+in series with 27 or by loss or
+reduction of tripping voltage *
+
+Undervoltage device 27 is activated
+by closing NO contact, shorting the
+27 coil. The NO contact is connected
+across 27 by 52a contact thus the
+NO contact is only effective with
+breaker closed *
+
+Secondary release
+dual trip function
+Activated by remote
+trip command
+contact NO *
+
+i]
+
+Shunt Trip Coil 52T
+
+Y
+
+Undervoltage device (27) *
+
+Secondary release*
+
+unlatches the unlatches the tripping spring unlatches the
+tripping spring tripping spring
+i es |
+
+| Circuit breaker trips
+
+Figure 17. Operator Sequential Operation Diagram
+
+15
+
+===== PAGE 18 =====
+Interrupter/Operator Description
+
+Elementary Diagram
+
+D.C. SUPPLY
+
+Standard: Fuses in close circuit
+Slugs in trip circuit (fuses optional)
+
+Shown with springs discharged, trip latch reset, breaker open and located in test , connect, or withdrawn position.
+
+Symbol List
+
+88 Spring Charging Motor
+
+52SRC_ Spring Release Coil (Closed)
+
+52Y Closing Relay (Anti-Pump)
+
+52T Shunt Trip Coil
+
+LS Spring Charged Switch
+
+MI Mechanical interlock
+
+52a Aux. Sw. Open When Brk. is Open
+52b Aux. Sw. Closed When Brk. Is Open
+
+R Red Indicating Light (Closed) Typical
+G Green Indicating Light (Trip) -t— Remote
+Ww White Indicating Light (Spring Charged) Devices
+
+Ole Control Switch (Closed)
+OWT Control Switch (Trip)
+
+S20 S20 520 520
+
+Figure 18. Typical Elementary Diagram
+
+Manual Closing
+
+To close the breaker, press the close button (53). The close-
+open indicator (55) will then display “Closed” and the closing
+spring condition indicator (58) will now read “Discharged”.
+
+Manual Opening
+
+The tripping spring is charged during closing. To open the
+breaker, press the trip button (54) and “Open” will be dis-
+played by indicator (55).
+
+Indirect Releases (Dual Trip or Undervoltage) (optional)
+The indirect release provides for the conversion of modest
+control signals into powerful mechanical energy impulses. It is
+primarily used to trip medium voltage circuit breakers while
+functioning as a secondary (dual trip) release or undervoltage
+release device.
+
+These releases are mechanical energy storage devices. Their
+internal springs are charged as a consequence of the breaker
+mechanism operation, This energy is released upon applica-
+tion or removal (as appropriate) of applicable control voltages.
+Refer to Figures 19-21.
+
+Secondary (Shunt) Release (optional)
+
+A secondary shunt release (extra trip coil) is used for electrical
+tripping of the circuit breaker by protective relays or manual con-
+trol devices when more than one trip coil is required. The second
+trip coil is generally connected to a separate auxiliary supply (DC
+or AC) from the control supply used for the normal trip coil.
+
+16
+
+Undervoltage Release (optional)
+
+The undervoltage release is used for continuous monitoring of
+the tripping supply voltage. If this supply voltage falls exces-
+sively, the undervoltage release will provide for automatic trip-
+ping of the breaker.
+
+The undervoltage device may be used for manual or relay trip-
+ping by employing a contact in series with undervoltage device
+holding coil. Relay tripping may also be achieved by employ-
+ing a normally open contact in parallel with the holding coil. It
+this scheme is used, a resistor must be provided to limit cur-
+rent when the normally open contact is closed.
+
+Secondary and undervoltage releases are available for all stan-
+dard ANS} control voltages.
+
+Construction and Mode of Operation of Secondary
+Release and Undervoltage Release (See Figures 19-21)
+
+The release consists of a spring-power storing mechanism, a
+latching device, and an electromagnet. These elements are
+accommodated side by side in a housing (3), with a detachable
+cover and three through holes (5) for fastening screws. The
+supply leads for the trip coil are connected to a terminal block
+(33).
+
+The energy-storing mechanism consists of the striker pin (23)
+and its operating spring (31), which is mostly located inside
+the striker pin (23). When the spring is compressed, the striker
+pin is held by a latch (25), whose sloping face is forced against
+
+===== PAGE 19 =====
+Interrupter/Operator Description
+
+the appropriately shaped striker pin (23) by spring (27). The
+other end of the latch (25) is supported by a partly milled lock-
+ing pin (21) (see Figure 20), which pivots in the cover sheets
+of the magnet armature (9). The armature (9) pivots in front of
+the poles of the U-shaped magnet core (1), and is pulled away
+from it by the tension spring (11).
+
+lf the magnet coil (7) of the shunt release 3AX1101 is ener-
+gized by a trip signal, or if the tripping pin (15) is mechanically
+actuated, magnet armature (9) is swung against the pole
+faces. When this happens, the latch (25) loses its support and
+releases the striker pin (23), which is forced out by the spring
+(31).
+
+On the undervoltage release 3AX1108, the latch (25) is held by
+the locking pin (21) as long as the armature (9) is attracted
+(energized) (See Figure 21). If the circuit of the magnet coil (7)
+is interrupted, the armature (9) drops off, thus causing the
+latch (25) to lose its support and release the striker pin (23).
+
+Following every tripping operation, the striker pin (23) must be
+reset to its normal position by loading the spring (81). This
+takes place automatically via the operating mechanism of the
+circuit breaker.
+
+Since the striker pin of the undervoltage release 3AX1103 is
+latched only when the armature is attracted, this trip is provid-
+ed with a screw (29) (see Figure 21). This screw is provided to
+allow locking the striker pin (23) in the normal position for
+adjusting purposes or for carrying out trial operations during
+breaker servicing. Position A (locked) disables the undervolt-
+age release. Position B is the normal (operating) position.
+
+1 Magnet core 15 Tripping pin
+
+3 Housing 21 Locking pin
+
+5 Mounting holes (3) 23 Striker pin
+
+7 Magnet coil 25 Latch
+
+9 Magnet armature 27° Spring
+
+11. Tension spring 31. Striker pin spring
+13 Adjusting screw for 11 33 Terminal block
+
+| 1294-94
+
+Figure 19. Construction of Shunt Release (shown released)
+
+23
+
+Block/Operate Selection Screw
+(Undervoltage Release Only)
+
+25 27
+moi
+ro |
+rN
+21
+
+Figure 20. Latch Details (shown charged)
+
+Locked
+
+Position A:
+
+23 A
+
+23 Striker pin
+
+29 Screw 29
+Position B 93 At A
+Unlocked B
+(Operating Position) N\
+
+29
+
+Cancel The Lock For Undervoltage Release By
+Shifting Locking Screw (29) From A To B
+
+Figure 21. Undervoltage Block/Operate Selection
+
+Capacitor
+Trip Device
+
+Connection |
+For Source
+Voltage:
+
+Figure 22
+
+. Capacitor Trip Device
+
+17
+
+===== PAGE 20 =====
+Interrupter/Operator Description
+
+Capacitor Trip Device
+
+The capacitor trip device is an auxiliary tripping option provid-
+ing a short term means of storing adequate electrical energy
+to ensure breaker tripping.
+
+This device is applied in breaker installations lacking indepen-
+dent auxiliary control power or a station battery. In such instal
+lations, control power is usually derived from the primary
+source. In the event of a primary source fault, or disturbance
+with resulting reduction of the primary source voltage, the
+capacitor trip device will provide short term tripping energy for
+breaker opening due to relay operation.
+
+The capacitor trip includes a rectifier to convert the 120 or 240
+VAC control voltage to a DC voltage which is used to charge a
+large capacitor to the peak of the converted wave. See Figure 22.
+
+Shock Absorber
+
+Type 38-3AF circuit breakers are equipped with a sealed, oil-
+filled, viscous damper, or shock absorber (61.8) Figure 15. The
+purpose of this shock absorber is to limit overtrave! and
+rebound of the vacuum interrupters movable contacts during
+the conclusion of an opening operation. The shock absorber
+action affects only the end of an opening operation.
+
+Secondary Disconnect
+
+Signal and control power is delivered to the internal circuits of
+the breaker by an arrangement of movable contact fingers
+mounted on the top of the circuit breaker. These fingers are
+shown in Figure 23.
+
+When the circuit breaker is racked into the TEST or CONNECT
+positions in the metal-clad switchgear, these disconnect fin-
+gers engage a mating disconnect block on the inside of the
+switchgear shown in Figure 24. These electrical connections
+automatically disengage when the circuit breaker is racked
+from the TEST to the DISCONNECT position.
+
+All of the control power necessary to operate the circuit break-
+er is connected to this disconnect block inside the switchgear.
+The external trip and close circuits and status indicators are
+also connected to the same disconnect block.
+
+Figure 23. Secondary Disconnects on Circuit Breaker
+
+18
+
+Figure 24. Secondary Disconnect Inside Switchgear
+
+Auxiliary Switch
+
+Figure 25 shows the breaker mounted auxiliary switch. This
+switch provides auxiliary contacts for control of circuit breaker
+closing and tripping functions. Contacts are available for use in
+relaying and external logic circuits. This switch is driven by
+linkages connected to the jack shaft. The auxiliary switch con-
+tains both ‘b’ (Normally Closed) and ‘a’ (Normally Open) con-
+tacts. When the circuit breaker is open, the ‘b’ switches are
+closed and the ‘a’ switches are open.
+
+MOC (Mechanism Operated Cell) Switch
+
+Figures 26 and 27 show the principal components that pro-
+vide optional control flexibility when operating the circuit
+breaker in the TEST and CONNECT positions.
+
+Figure 26 shows the MOC switch operating arm that projects
+from the right side of the circuit breaker, just above the bot-
+tom rail structure. The MOC switch operating arm is part of
+the jack shaft assembly and directly reflects the open or
+closed position of the breaker primary contacts.
+
+As the circuit breaker is racked into the appropriate position
+inside the switchgear, the MOC switch operating arm passes
+a wiring protective cover plate, and engages the pantograph
+linkage shown in Figure 27. Operation of the circuit breaker
+causes the pantograph linkage to transfer motion to the MOC
+switches located above the pantograph. The ‘a’ and ‘b’ con-
+tacts can be used in relaying and control logic schemes.
+
+All circuit breakers contain the MOC switch operating arm.
+However, MOC switches are provided in the switchgear only
+when specified.
+
+The breaker engages the MOC auxiliary switch only in the
+CONNECT (operating) position unless an optional TEST post
+tion pickup is specified in the contract. If a TEST position pick-
+up is included, the breaker will engage the auxiliary switch in
+both positions. Up to 24 stages may be provided.
+
+===== PAGE 21 =====
+Interrupter/Operator Description
+
+TOC (Truck Operated Cell) Switch
+
+Figure 27 shows the optional TOC cell switch. This switch is
+operated by the circuit breaker as it is racked into the CON-
+NECT position.
+
+Various combinations of ‘a’ and ‘b’ contacts may be optionally
+specified. These switches provide control and logic indication
+that a breaker in the cell has achieved the CONNECT (ready to
+operate) position.
+
+Figure 25. Auxiliary Switch
+
+Figure 26. MOC Switch Operating Arm on Circuit Breaker
+
+vse ys
+
+”
+
+at Oh 0? OOO Bie
+
+Ss
+
+Figure 27. MOC and TOC Switches Inside Switchgear
+
+Trip Free Interlock
+
+Figure 28 shows the devices providing the trip-free interlock
+function. The purpose of the trip-free interlock is to hold the
+circuit breaker operating mechanism mechanically and electri-
+cally trip free. The breaker is held trip free during racking and
+whenever the breaker is between the TEST and CONNECT
+positions within the switchgear enclosure. This interlock
+ensures that the circuit breaker primary contacts can only be
+closed when in the CONNECT position, or the TEST position,
+or out of the switchgear cell.
+
+Rating Interlock
+
+Figure 28 shows the rating interlock interference plates
+mounted on the circuit breaker frame. The breaker interfer-
+ence plates are complemented by matching plates located in
+the cubicle.
+
+The interference plates (rating interlocks) test the breaker volt-
+age, continuous current, interrupting and momentary ratings
+and will not allow breaker insertion unless they match or
+exceed the cell rating.
+
+Circuit Breaker Frame
+
+The frame of the type 38-3AF circuit breaker contains several
+important devices and features deserving of special attention.
+These are the ground disconnect, the four racking wheels and
+four handling wheels.
+
+19
+
+===== PAGE 22 =====
+Interrupter/Operator Description
+
+Ground Disconnect
+
+Figure 28 shows the ground disconnect contact mounted at
+the bottom of the circuit breaker. The spring loaded fingers of
+the disconnect contact engage the ground bar (Figure 29) at
+the bottom of the switchgear assembly. The ground bar is to
+the right of the racking mechanism, shown at the bottom cen-
+ter of the switchgear.
+
+Circuit Breaker Handling Wheels
+
+The type 38-3AF circuit breaker is designed for easy move-
+ment into and out of the metal-clad switchgear assembly. A
+section of indoor or Shelter-Clad switchgear does not require a
+transfer
+
+truck or lifting truck for handling of the breaker when all circuit
+breakers are located at floor level. Once the circuit breaker is
+racked out of the switchgear, the unit can be pulled using the
+handles on the front of the breaker. The breaker will roll on its
+bottom four wheels.
+
+When circuit breakers are located above floor level, handling of
+the circuit breakers requires the use of a hoist or crane.
+
+Racking Mechanism
+
+Figure 29 shows the racking mechanism in the switchgear
+used to move the circuit breaker between the DISCONNECT,
+TEST and CONNECT positions. This mechanism contains a set
+of interface blocks that mate with the bottom of the circuit
+breaker housing, and Jock the breaker to the racking mecha-
+nism during in and out movement. A racking handle (not
+shown) mates with the threaded shaft of the racking mecha-
+nism. Clockwise rotation of the crank moves the breaker into
+the switchgear; and counterclockwise rotation removes it.
+
+The racking and trip free interlocks provide several essential
+functions.
+
+1. They prevent racking a closed breaker into or out of the
+switchgear assembly.
+
+2. They discharge the closing springs whenever the circuit
+breaker is inserted into, or withdrawn from, the
+switchgear.
+
+3. They prevent closing of the circuit breaker unless it is in
+either the TEST or CONNECT positions.
+
+The rating interlock prevents insertion of a lower rated circuit
+breaker into a cubicle intended for a breaker of higher ratings.
+
+20
+
+Rating
+interlock
+
+Spring dump
+interlock
+
+Trip free interlock
+
+Closed breaker racking interlock
+
+Racking shaft Ground bar
+
+Breaker release
+latch
+
+[1087-93 |
+
+Figure 29. Racking Mechanism and Floor Interlocks
+
+===== PAGE 23 =====
+Vehicle Description
+
+Vehicle Function and Operational Interlocks
+
+Type 38-3AF vacuum circuit breakers are comprised mainly of
+the interrupter/operator module fitted to a vehicle. This inter-
+rupter/operator module is an integral arrangement of operating
+mechanism, dielectric system, vacuum interrupters, and
+means of connecting the primary circuit. The vehicle supports
+the interrupter/operator module, providing mobility and fully
+coordinated application in Siemens type GM38 switchgear.
+
+Successful coordinated application of the fully assembled type
+38-3AF vacuum breaker is achieved thru precise alignment in
+fixtures during manufacture, and important functional interlocking.
+
+Alignment
+
+All aspects of the circuit breaker structure which impact align-
+ment and interchangeability are checked using master fixtures
+at the factory. Field adjustment will not normally be required.
+
+Interlocks
+ADANGER
+Hazardous voltages and high-speed moving
+
+parts.
+
+Will cause death, personal injury, and property
+damage.
+
+Do not by-pass interlocks or otherwise make inter-
+locks inoperative. Interlocks must be in operation at
+all times.
+
+Read this instruction manual. Know and understand
+correct interlock function. Check interlock function
+prior to inserting breaker into switchgear cubicle.
+
+Breaker Racking Interlocks
+
+The interrupter/operator module and the vehicle portions of
+the circuit breaker, and the racking mechanism in the
+switchgear all cooperate to provide important operational inter-
+locking functions.
+
+1. Rating Interlock
+
+‘The rating interlock consisting of a coded interference
+plate is mounted on the vehicle as shown in Figure 28. A
+mating interference blocking plate is mounted in the dra-
+wout compartment as seen in Figure 29. The two plates
+are mounted in alignment and must pass through each
+other in order for the breaker vehicle to enter the drawout
+compartment. The interlock is coded to test rated voltage,
+as well as interrupting, close & latch, and continuous cur-
+rent ratings. The circuit breaker must equal or exceed all of
+the cubicle ratings in order to enter the compartment.
+
+2. Racking interlocks
+
+a. Closed Breaker Interlock - Figure 28 shows the loca-
+tion of the closed breaker interlock plunger on the circuit
+breaker frame. The purpose of this interlock is to post
+tively block breaker racking operations whenever the
+breaker is closed. The plunger is coupled to the jack
+shaft (Figure 15, 63). When the jack shaft rotates 60
+degrees to close, the interlock plunger is driven straight
+downward beneath the frame of the breaker.
+
+The downward projecting plunger blocks racking oper-
+ation when the breaker is closed. Figure 29 shows
+the racking mechanism located on the floor in the
+center of the breaker compartment. On the left side
+of the racking mechanism, two “wing-like” elements
+project. The closed breaker interlock plunger, when
+down (breaker closed), falls behind the front wing in
+the TEST position and behind the rear wing in the
+CONNECT position.
+
+The wings are coupled to the element of the racking
+mechanism which shrouds the racking screw. This
+shroud must be moved rearward to insert the racking
+crank socket in order to engage the racking shaft.
+With the plunger down (breaker closed), the wings
+and shroud cannot be moved and thus racking is
+blocked.
+
+4 Spring Dump
+Tube
+
+Trip Free Mechanical
+Interlock Switch
+
+6 Trip Free
+interlock
+
+5 Spring Dump
+Interlock
+
+gel 1284-94
+
+Figure 30. Interlock Mechanisms on 38-3AF Circuit Breaker
+
+b. Trip Free Interlock - Figure 28 shows the trip free
+racking interlock, a plunger with a roller on the lower
+end. It has spring return to the reset or lowest posi-
+tion. The plunger roller tracks the shape of the racking
+cam on the racking mechanism in the switchgear.
+
+The racking cam allows the trip free racking interlock
+to be in the lowest position (reset) only when the cir-
+cuit breaker is in the TEST or the CONNECT position.
+Thus, during racking, the trip free interlock is held In
+an elevated condition except when the breaker reach-
+es the TEST or the CONNECT position. The circuit
+breaker can be closed only when the interlock plunger
+is down, and will trip if the plunger is moved up.
+
+The operation of the trip free racking interlock may be
+seen in Figure 30. As the interlock (6) rises, it moves
+a series of linkages, which cause a guided tube (4) to
+rise, and enter the operating mechanism enclosure.
+
+21
+
+===== PAGE 24 =====
+_ Vehicle Description
+
+a
+
+Figure 31 shows the operating mechanism detail
+components which establish a trip free condition as
+the tube (4) rises. The rising tube raises a lever
+attached to the base of the operating mechanism
+enclosure. This lever raises the trip free pushrod.
+The rising trip free pushrod elevates the trip free
+pushrod cam, which pushes the trip free coupling
+lever (62.8.3) (Figure 15) toward the rear of the enclo-
+sure.
+
+The movement of the trip free coupling lever toward
+the rear of the enclosure is transmitted through the
+trip free coupling link (62.8.2) to the spring return latch
+(62.8.1). With the latch displaced from a normal reset
+position, the trip free coupling rod (62.8) is incapable
+of applying closing effort to the jack shaft (63). Thus,
+upon release, the closing spring energy will not be
+transmitted to the jack shaft.
+
+Trip Latch
+
+. ny ——— Normal Operating Position
+Trip Pushrod__ [viii 7s
+Cam i
+Lever A
+: Trip Free Pushrod
+!
+\
+--- ro Interlock Levers
+i
+i
+|
+© }
+= 5 a
+23 Ny
+RCO 1
+Oc .
+ou }
+I
+
+Close Latch Lever Ht
+HI
+1 \
+
+L.-~ Closing Spring
+Release Cam
+
+Retaining Ring a “4 Cit
+
+Spring Dump Tube (4)
+
+Figure 31. Closed Breaker Interlock Mechanisms in Stored
+Energy Mechanism
+
+22
+
+Automatic Closing Spring Energy Release
+
+The automatic closing spring energy release (spring dump)
+(Figure 28) is a plunger with a roller on the lower end. The
+spring dump has a return spring which returns the spring
+dump to the reset or lowered position. The plunger roller
+tracks the shape of the spring discharge cam on the rack-
+ing mechanism in the switchgear (Figure 29).
+
+The spring dump cam raises the spring dump interlock
+upon insertion of the breaker into the compartment, or
+upon withdrawal from the compartment. The interlock is
+raised at about the time the front wheels pass over the
+cubicle sill. It allows the spring dump interlock to be in the
+reset (lowest) position at all other times.
+
+The operation of the spring dump interlock may be seen in
+Figure 30. As the interlock rises (5), it causes the guided
+tube (4) to rise and enter the operating mechanism enclosure.
+
+Figure 31 shows the operating mechanism detail compo-
+nents which establish a spring dump condition as the tube
+rises. The rising tube raises a lever attached to the base of
+the operating mechanism enclosure. This lever raises the
+trip free pushrod, which elevates the closing spring
+release cam. The closing spring release cam moves the
+closing spring latch, which causes the closing springs to
+discharge. However, the trip free interlock is raised, so
+that the operating mechanism is held trip free (see trip
+free interlock discussion). Thus, the energy in the closing
+springs is released (spring dump), without movement of
+the jackshaft or the vacuum interrupter contacts.
+
+Trip Free Interlock Position Mechanical Interlock
+
+In order to prevent the motor charging circuit from “making
+and breaking” as the breaker and cubicle secondaries
+make or break physical contact, an electrical switch is pro-
+vided. This switch is mounted as shown in Figure 30. This
+switch is mounted in the line of action taken by the trip
+free interlock plunger, which follows the racking mecha-
+nism cam, and is elevated at all times while the breaker is
+in the drawout compartment, except when in the TEST or
+CONNECT positions. A striker plate, integral with the trip
+free interlock plunger, engages and operates (opens) the
+switch when the plunger is in an elevated position block-
+ing spring charging motor operation. The switch is closed
+when the breaker occupies the TEST or CONNECT posi-
+tion, allowing the charging motor to operate automatically.
+
+===== PAGE 25 =====
+Maintenance
+
+a ae
+
+Introduction and Maintenance Intervals
+Periodic inspections and maintenance are essential to obtain
+safe and reliable operation of the type 38-3AF circuit breaker.
+
+When type 38-3AF circuit breakers are operated under “Usual
+Service Conditions”, maintenance and lubrication is recom-
+mended at five year intervals or at the number of operations
+indicated in Table 2. “Usual” and “Unusual” service condi-
+tions for Medium Voltage Metal-Clad Switchgear are defined
+in ANSI C37.20.1, sections 3 and 7.1. Generally, “usual service
+conditions” are defined as an environment in which the equip-
+ment is not exposed to excessive dust, acid fumes, damaging
+chemicals, salt air, rapid or frequent changes in temperature,
+vibration, high humidity, and extremes of temperature.
+
+The definition of “usual service conditions” is subject to a variety
+of interpretations. Because of this, you are best served by adjust-
+ing maintenance and lubrication intervals based on your experi-
+ence with the equipment in the actual service environment.
+
+Regardless of the length of the maintenance and lubrication
+interval, Siemens recommends that circuit breakers should be
+inspected and exercised annually.
+
+ADANGER
+
+Hazardous voltages and high-speed moving parts.
+
+Will cause death, personal injury, and property
+damage.
+
+Read instruction manuals, observe safety instruc-
+tions, and limit use to qualified personnel.
+
+For the safety of maintenance personnel as well as others
+who might be exposed to hazards associated with mainte-
+nance activities, the safety related work practices of NFPA
+70E, parts l1 and Ill, should always be followed when working
+on electrical equipment. Maintenance personnel should be
+trained in the safety practices, procedures and requirements
+that pertain to their respective job assignments. This manual
+should be reviewed and retained in a location readily accessi-
+ble for reference during maintenance of this equipment.
+
+The user must establish a periodic maintenance program to
+ensure trouble-free and safe operation. The frequency of
+inspection, periodic cleaning, and preventive maintenance
+schedule will depend upon the operation conditions. NFPA
+Publication 70B, “Electrical Equipment Maintenance” may be
+used as a guide to establish such a program. A preventive
+maintenance program is not intended to cover recondi-
+tioning or major repair, but should be designed to reveal,
+if possible, the need for such actions in time to prevent
+malfunctions during operation.
+
+Recommended Hand Tools
+
+Type 38-3AF breakers use both standard American and metric
+fasteners. Metric fasteners are used for the vacuum inter-
+rupters and in the interrupter/operator module. American fas-
+teners are used in most other locations. This list of hand tools
+describes those normally used in disassembly and re-assem-
+bly procedures.
+
+Metric
+
+e Sockets and open end wrenches: 7, 8, 10, 13, 16, 18, 19,
+and 24mm
+
+¢ Hex keys: 2, 5, 6, 8 and 10mm
+
+e Deep Sockets: 19 and 24mm
+
+© Torque Wrench: 0-150 Nm (0-100 ft-lbs.)
+
+American
+
+* Socket and Open-End Wrenches: 5/16, 3/8, 7/16, 1/2, 9/16,
+11/16, 3/4, and 7/8 in.
+
+Hex Keys: 3/16 and 1/4 in.
+
+Screwdrivers: 0.032 x 1/4 in. wide and 0.55 x 7/16 in. wide
+
+Pliers
+
+Light Hammer
+
+Dental Mirror
+
+Flashlight
+
+Drift Pins: 1/8, 3/16, and 1/4 in.
+
+Retaining Ring Plier (external type, tip diameter 0.040 in.)
+
+Recommended Maintenance and Lubrication
+
+Periodic maintenance and lubrication should include all the
+tasks shown in Table 1. Recommended procedures for each
+of the listed tasks are provided in this section of the manual.
+
+AWARNING .
+
+Failure to maintain the equipment will result in death, serious
+injury or product failure, and can prevent successful functioning
+of connected apparatus.
+
+The instructions contained herein should be carefully reviewed, under-
+stood, and followed.
+
+The maintenance tasks in Table 1 must be performed regularly.
+
+© Checks of the primary power path
+e Cleanliness check
+* Inspection of primary disconnects
+¢ Checks of the stored energy operator mechanism
+e Maintenance and lubrication
+e Fastener check
+© Manual spring charging check
+© Contact erosion check
+e Electrical control checks
+¢ Wiring and terminals check
+¢ Secondary disconnect check
+* Automatic spring charging check
+¢ Electrical close and trip check
+Vacuum integrity check
+High potential test
+Insulation test
+Contact resistance test
+Inspection and cleaning of breaker insulation
+Functional tests
+
+eoeee?@
+
+Table 1: Maintenance Tasks
+
+The list of tasks in Table 1 does not represent an exhaustive
+survey of maintenance steps necessary to ensure safe opera-
+tion of the equipment. Particular applications may require fur-
+ther procedures. Should further information be desired or
+should particular problems arise which are not covered suffi-
+ciently for the Purchaser's purposes, the matter should be
+
+referred to the local Siemens sales office 5
+3
+
+===== PAGE 26 =====
+Maintenance
+
+ADANGER
+
+The use of unauthorized parts in the repair of the equipment, or
+tampering by unqualified personne! will result in dangerous condi-
+tions which will cause death, serious injury or equipment damage.
+Follow all safety instructions contained herein.
+
+Removal from Switchgear
+
+Prior to performing any inspection or maintenance checks or
+tests, the circuit breaker must be removed from the
+switchgear. The Installation and Initial Functional Tests section
+describes the removal procedure in detail. Principal steps are
+repeated here for information and guidance, but without the
+details of the preceding section.
+
+1. The first step is to de-energize the circuit breaker. Figure
+32 illustrates the location of the trip control on the circuit
+breaker operator panel. Depressing the Trip pushbutton
+opens the breaker prior to removal from the switchgear.
+
+2. The second step in the removal procedure is to de-ener-
+gize control power to the circuit breaker. Open the control
+power disconnect device.
+
+3. Rack the breaker to the DISCONNECT position.
+
+4. Perform the spring discharge check. This is done by first
+depressing the red Trip pushbutton. Second, depress the
+back Close pushbutton. Third, depress the red Trip push-
+button again, and observe the spring condition indicator. It
+should read Discharge. Figure 32 shows the breaker
+spring condition indicator in the Discharged position.
+
+erect ee
+
+Figure 32. Manual Tripping of Circuit Breaker
+
+24
+
+Figure 33. 38-3AF Breaker Showing Vacuum Interrupters and
+Primary Disconnects (Barriers removed)
+
+5. Remove the breaker from the switchgear. Refer to the
+preceding installation section of this manual for special
+instructions and precautions regarding removal of a break-
+er which is not at floor level.
+
+6. The breaker can be located either on the floor or on a pal
+fet. Each breaker has four wheels and handles to allow
+one person to maneuver the unit on a level surface with-
+out assistance.
+
+Checks of the Primary Power Path
+
+The primary power path consists of the three vacuum inter-
+rupters, the three upper and the three lower primary discon-
+nects. These components are checked for cleanliness and
+condition. The vacuum interrupters are also checked for vacu-
+um integrity.
+
+Some test engineers prefer to perform the contact erosion
+check during the manual spring charging check of the opera-
+tor, since charging of the springs is necessary to place the
+contacts in the closed position. Also, the vacuum integrity
+check is usually performed in conjunction with the High
+Potential tests.
+
+These instructions follow the recommendation that these tests
+(contact erosion/manual spring charging check, and vacuum
+integrity/high potential tests) will be combined as described.
+
+Cleanliness Check
+
+Figure 33 is a side view of the 38-3AF circuit breaker with the
+insulating barriers removed to show the vacuum interrupter,
+and the upper and lower primary disconnects.
+
+All of these components must be cleaned and free of dirt or
+any foreign objects. Use a dry lint-free cloth. For stubborn dirt,
+use a clean cloth saturated with denatured alcohol.
+
+===== PAGE 27 =====
+Maintenance
+
+eel
+
+Inspection of Primary Disconnects
+
+Figure 34 shows the primary disconnect contact fingers engaged.
+When the contacts are mated with the switchgear’s primary stud
+assembly, there is forceful contact distributed over a wide area.
+This maintains low current flow per individual contact finger.
+
+Inspect the contact fingers for any evidence of burning or pitting
+that would indicate weakness of the contact finger springs.
+
+Inspect the primary disconnect arms for physical integrity and
+absence of mechanical damage.
+
+Inspect the flexible connectors that connect the bottom mov-
+able contacts of the vacuum interrupters to the lower primary
+disconnect arms for tightness and absence of mechanical
+damage, burning, or pitting.
+
+Using a clean cloth saturated with denatured alcohol, clean old
+lubricant from primary disconnects, and apply a very thin layer
+of Siemens contact lubricant (reference 15-171-370-002).
+
+Figure 34. Primary Disconnect in Mated Position
+
+Checks of the Stored Energy Operator Mechanism
+
+The stored energy operator checks are divided into mechanical
+and electrical checks for simplicity and better organization.
+This first series of checks determine if the basic mechanism is
+clean, lubricated and operates smoothly without control
+power. The contact erosion check of the vacuum interrupter is
+also performed during these tasks.
+
+Maintenance and Lubrication
+
+Breaker Type Number of
+Years/Closing Operations
+38-3AF 5 years/1000 operations
+
+Table 2: Maintenance and Lubrication Intervals (ANSI
+C37.06 Table 8 - Usual Service Conditions) Maintenance
+Based Upon Number of Breaker Closing Operations
+
+The interrupter operator mechanism is shown in Figure 35
+with the front cover and the operator control panel removed to
+show construction details. Both the tripping spring and the
+closing spring are shown. The movable end of the closing
+spring is connected to a crank arm. The movable end of the
+opening spring is connected to the jack shaft by a pull rod.
+
+Clean the entire stored energy operator mechanism with a dry,
+lint-free cloth.
+
+Check all components for evidence of excessive wear. Place
+special attention upon the closing spring crank and the various
+pushrods and linkages.
+
+(each phase}
+
+A Anderol 732
+(1 Beacon 325 or Supermil A-72832
+
+[1273-94|
+
+Figure 35. Front View of Operator Mechanism
+
+Lubricate all non-electrical moving or sliding surfaces with a
+light coat of synthetic grease or oil. Lubricants composed of
+diester oils and fithium thickeners will be compatible.
+
+Shell (drawn cup) needle bearings:
+Use either Beacon (Exxon) 325 (reference 18-658-676-422
+and part number 15-337-131-001) or Supermil (Amoco) A-
+72832 (reference 18-758-676-423), or Anderol 732.
+
+Pivots, sliding, and/or rolling surfaces and general lubrication:
+Use Anderol 732 aerosol synthetic fluid grease (reference
+part number 15-172-816-058).
+
+Primary disconnect contacts (multifingered clusters) and sec-
+ondary disconnect contacts (strips and fingers) are to be wiped
+clean, and a film of Siemens contact lubricant (15-171-370-002)
+applied. Avoid getting contact lubricant on any insulating materials.
+
+Fastener Check
+
+Inspect all fasteners for tightness. Both lock-nuts and retaining
+rings are used. Replace any fasteners that appear to have
+been frequently removed and replaced.
+
+Manual Spring Charging and Contact Erosion Checks
+Perform the Manual Spring Charging Check contained in the
+section describing the Installation Check and Initial Functional
+Tests. The key steps of this procedure are repeated here.
+
+1. Insert the hand charging crank into the manual charge
+socket at the front of the operator contro! panel. Turn the
+crank clockwise (about 45 revolutions) to charge the clos-
+ing springs. Continue cranking until the Charged flag
+appears in the window of the spring indicator.
+
+25
+
+===== PAGE 28 =====
+Maintenance
+
+2. Press the Close (black) pushbutton. The contact position
+indicator on the operator control panel should indicate that
+the breaker contacts are closed.
+
+1275-94 |
+
+Peers ca
+
+Figure 36. Contact Erosion Check Mark
+
+3. Perform the contact erosion check. Contact erosion occurs
+when high fault currents are interrupted or when the vacuum
+interrupter is nearing the limit of its contact life. Determination
+of acceptable contact condition is checked by the visibility
+of the white erosion mark shown in Figure 36. The white
+erosion mark is located in the keyway (or slot) on the movable
+stem of the vacuum interrupter, near the plastic guide bushing.
+
+The contact erosion check procedure is:
+
+a. Be sure the breaker primary contacts are Closed.
+
+b. Observe the white erosion mark (Figure 36) of each
+pole. When this mark is visible, contact wear is within
+acceptable limits.
+
+AWARNING
+
+High Speed Moving Parts.
+
+Can cause serious injury.
+
+KS
+
+Tripping spring is charged. If trip latch is moved,
+the stored energy springs will discharge rapidly.
+
+Observe precautions concerning physical con-
+tact with components of the circuit breaker
+subjected to sudden, high speed movement.
+
+4. Press the red Trip pushbutton after completing the contact
+erosion check. Visually verify the Discharge condition of the
+closing springs and that the circuit preaker contacts are Open.
+
+5. Press the black Close pushbutton. Nothing should happen.
+
+The manual spring check should demonstrate smooth
+operation of the operating mechanism.
+
+26
+
+Electrical Control Checks
+
+The electrical controls of the type 38-3AF circuit breaker
+should be checked during inspections to verify absence of any
+mechanical damage, and proper operation of the automatic
+spring charging, Close, and Trip circuits.
+
+Unless otherwise noted, all of these tests are performed
+without any control power applied to the circuit breaker.
+
+Check of the Wiring and Terminals
+1. Physically check all of the breaker wiring for evidence of
+abrasion, cuts, burning or mechanical damage.
+
+2. Check all terminals to be certain they are solidly attached
+to their respective device.
+
+Check of the Secondary Disconnect
+
+In addition to checking the terminals of the secondary discon-
+nect, the secondary contact fingers need to be free to move
+without binding. Depress each finger, confirm presence of
+spring force (contact pressure), and verify freedom of motion.
+
+AWARNING
+Hazardous voltages and high-speed mechanical
+
+parts.
+
+Will cause death, severe personal injury, and prop-
+erty damage.
+
+Read instruction manuals, observe safety instruc-
+tions, and limit use to qualified personnel.
+
+Automatic Spring Charging Check (Control Power Required)
+Repeat the automatic spring charging check described in the
+section entitled Installation Checks and Initial Functional Tests.
+
+Primary tasks of this check are:
+1. The breaker is energized with control power for this check.
+2. De-energize the source of control power.
+
+3. Install the breaker end of the split plug jumper over the
+secondary disconnect of the circuit breaker. The split plug
+jumper has one male and one female connector and can-
+not be installed incorrectly (Figure 5).
+
+4. Install the switchgear end of the plug jumper over the sec-
+ondary disconnect block inside the switchgear (Figure 6).
+
+5. Energize the control power source.
+
+6. When control power is connected to the circuit breaker,
+the closing springs should automatically charge. Visually
+verify that the closing springs are charged.
+
+Note: A temporary source of control power and test leads
+may be required if the control power source has not been
+connected to the switchgear. When control power is con-
+nected to the type 38-3AF circuit breaker, the closing
+springs should automatically charge.
+
+===== PAGE 29 =====
+Maintenance
+
+Electrical Close and Trip Check (Control Power Required)
+A check of the breaker control circuits is performed while the
+unit is still connected to the switchgear by the plug jumper.
+This check is made with the breaker energized by control
+power from the switchgear.
+
+1. Once the breaker springs are charged, move the
+switchgear Close/Trip switch to the Close position. There
+should be both the sound of the breaker closing and indi-
+cation that the breaker contacts are closed by the main
+contact status indicator.
+
+2. As soon as the breaker has closed, the automatic spring
+charging process is repeated. ~
+
+3. After a satisfactory close operation is verified, move the
+switchgear Close/Trip switch to’ the Trip position. Verify by
+both sound and contact position that the contacts are open.
+Completion of these checks demonstrates satisfactory
+operation of auxiliary switches, internal relays and solenoids.
+
+Checks of the Spring Charging Motor
+No additional checks of the spring charging motor are necessary.
+
+Vacuum Interrupters
+The life expectancy of vacuum interrupters is a function of the
+number of interruptions and magnitude of current interrupted.
+
+They must also be replaced before 30,000 mechanical opera-
+tions or when the contacts have been eroded beyond allowed
+limits. Vacuum tube replacement procedures are detailed in
+the following maintenance instructions.
+
+The curve is Figure 37 is offered as a guide to life expectancy.
+
+s mad
+
+2——.
+
+nm
+bar
+
+a
+at
+
+> Nee
+Lert
+
+S
+2
+
+as oc
+
+Ly
+
+s
+%
+7
+
+a
+
+a Oe
+
+2
+
+10!
+4072 4 f 810° 4 gio’ 2 6 310°
+
+la [kA]
+
+Figure 37. Typical Vacuum Interrupter Contact Life Curve
+
+Interrupter Vacuum Check Mechanical (Figures 38-40)
+Before putting the breaker into service, or if an interrupter is
+suspected of leaking as a result of mechanical damage, check
+the vacuum either mechanically as described in this section, or
+alternatively, electrically using a high potential test set as
+described in the next section.
+
+Open and isolate the breaker and detach the insulated coupler
+(48) from lever (48.6) (Figure 38).
+
+The atmospheric pressure will force the moving contact of a
+hermetically sealed interrupter into the “Closed” position, caus-
+ing lever (48.6) to move into the position shown in Figure 39.
+
+A vacuum interrupter may be assumed to be intact if it shows
+the following characteristics:
+
+An appreciable closing force has to be overcome when lever
+(48.6) is moved to the “Open” position by hand Figure 40.
+When the lever is released, it must automatically return to the
+“Closed” position with an audible sound as the contacts touch.
+
+After checking the vacuum, reconnect the lever (48.6) to the
+insulated coupler (48).
+
+48 48.6 40
+
+. 48 Insulated coupler
+48.6 Lever
+a -40° Lower pole support
+
+[1279-94]
+
+Figure 38. Lower Pole Support with Insulated Coupler
+
+27
+
+===== PAGE 30 =====
+Maintenance
+
+| 1277-94
+
+Figure 39. Primary Contact Closed - Insulated Coupler
+Disconnected
+
+| 1278-94
+
+Figure 40. Primary Contact Forced Open by Manual Pressure
+
+High-Potential Tests
+
+The next series of tests (Vacuum Integrity Test and Insulation
+Tests) involve use of high voltage test equipment. The breaker
+under test should be inside a suitable test barrier equipped
+with warning lights.
+
+Vacuum Integrity Check (using Dielectric Test)
+
+A high potential test is used to verify the vacuum integrity of
+the circuit breaker. The test is conducted on the circuit breaker
+with its primary contacts in the Open position.
+
+28
+
+A DANGER
+
+High Potential tests employ hazardous voltages.
+Will cause severe personal injury and death.
+
+Follow safe procedures, exclude unnecessary per-
+sonnel and use safety barriers. Keep away from
+the breaker during application of test voltages.
+Disconnect the plug jumper from between the cir-
+
+cuit breaker and switchgear before conducting high
+potential tests.
+
+AWARNING
+
+Vacuum interrupters may emit X-ray radiation.
+r® '
+
+Can cause personal injury.
+
+X-rays can be produced when a high voltage is
+placed across two circuit elements in a vacuum.
+
+Keep personnel more than six (6) feet away from a
+circuit breaker under test.
+
+High Potential Test Voltages
+The voltages for high potential tests are shown in Table 3.
+
+Equipment kV Max AC rms Max DC Avg
+Rating
+38kV 60kV 85kV
+
+Table 3. High Potential Test Voltages
+
+Note: Do not use DC high potential testers incorporat-
+ing half-wave rectification. These devices produce high
+peak voltages.
+
+These high voltages will produce X-ray radiation. These devices
+also show erroneous readings of leakage current when testing
+vacuum circuit breakers.
+
+Vacuum Integrity Test Procedure
+
+1. Observe safety precautions listed in the danger and warming
+advisories. Construct the proper barrier and warning light
+system.
+
+2. Ground each pole not under test.
+
+3. Apply test voltage across each pole for one minute.
+(Breaker open).
+
+4. lf the pole sustains the test voltage for that period, its vac-
+uum integrity has been verified.
+
+Note: This test includes not only the vacuum interrupter, but also
+the other insulation components in parallel with the interrupter.
+These include the standoff insulators and the insulated drive links,
+as well as the insulating (tension) struts between the upper and
+lower vacuum interrupter supports. lf these insulation components
+are contaminated or defective, the test voltage will not be sus-
+tained. If so, clean or replace the affected components, and retest.
+
+===== PAGE 31 =====
+Maintenance
+
+nal
+
+As-Found Insulation and Contact Resistance Tests
+As-Found tests verify the integrity of the breaker insulation sys-
+tem. Megger or insulation resistance tests conducted on equip-
+ment prior to installation provide a basis of future comparison to
+detect changes in the protection afforded by the insulation sys-
+tem. A permanent record of periodic As-Found tests enables the
+maintenance organization to determine when corrective actions
+are required by watching for significant deterioration in insulation
+resistance, or increases in contact resistance.
+
+Insulation and Contact Resistance Test Equipment
+
+In addition to the High Potential Test Equipment capable of
+test voltages as listed in Table 3, the following equipment is
+also required:
+
+¢ AC High Potential tester with test voltage of 1500 volts, 60 Hz
+¢ Test equipment for contact resistance tests.
+
+Insulation and Contact Resistance Test Procedure
+
+1.
+
+10.
+
+Observe safety precaution listed in the danger and caution
+advisories for the Vacuum Integrity Check tests.
+
+Close the circuit breaker. Ground each pole not under test.
+Use manual charging, closing and tripping procedures.
+
+Apply the proper AC (60kV) or DC (85kV) high potential
+test voltage between a primary conductor of the pole and
+ground for one minute.
+
+If no disruptive discharge occurs, the insulation system is
+satisfactory.
+
+After test, ground both ends and the middle of each vacu-
+um bottle to dissipate any static charge.
+
+Disconnect the leads to the spring charging motor.
+
+Connect all points of the secondary disconnect with a short-
+ing wire. Connect the shorting wire to the high potential lead
+of the high voltage tester, and ground the breaker housing.
+Starting with zero volts, gradually increase the test voltage to
+1500 volts rms, 60 Hz. Maintain test voltage for one minute.
+
+lf no disruptive discharge occurs, the secondary control
+insulation level is satisfactory.
+
+Disconnect the shorting wire and re-attach the leads to the
+spring charging motor.
+
+Perform contact resistance tests of the primary contacts.
+Contact resistance should not exceed the values listed in
+Table 4.
+
+Current Rating Contact Resistance
+(Amps) (Micro-Ohms)
+1200 40
+2000 35
+3000 35
+
+Table 4. Maximum Contact Resistance
+
+Inspection and Cleaning of Breaker Insulation
+
+1.
+
+Perform the Spring Discharge Check on the circuit breaker
+after all control power is removed. The Spring Discharge
+Check consists of 1) depressing the red Trip pushbutton,
+2) then depressing the black Close pushbutton, and 3)
+again depressing the red Trip pushbutton. All of these con-
+trols are on the breaker front panel. visually verify the
+Discharge condition of the springs.
+
+Remove any interphase and outerphase barriers as shown
+in Figure 7.
+
+Clean barriers and post insulators using clean cloth and
+one of the following solvents:
+
+* No. 1 or No. 2 denatured alcohol
+
+¢ lsopropyl or isobutyl alcoho!
+
+Replace all barriers. Check all visible fasteners again for
+condition and tightness.
+
+Note: Do not use any cleaning compounds containing
+chlorinated hydrocarbons such as trichlorethylene, per-
+chlorethylene or carbon tetrachloride.
+
+These compounds will damage the phenylene ether copoly-
+mer material used in the barriers and other insulation on the
+circuit breaker.
+
+Functional Tests
+
+Refer to the Installation Checklist in the Installation Checks
+and Initial Functional Tests section of this manual. Functional
+tests consist of performing at least three (3) Manual Spring
+Charging Checks and three (3) Automatic Spring Charging
+Checks. After these tests are complete, and the springs fully
+discharged, all fasteners and connections are checked again
+for tightness and condition before re-installing the breaker into
+the metal-clad switchgear.
+
+29
+
+===== PAGE 32 =====
+Overhaul
+
+Introduction
+
+The following procedures along with the troubleshooting
+charts at the end of this section, provide maintenance person-
+nel with a guide to identifying and correcting possible malfunc-
+tions of the type 38-3AF vacuum circuit breaker.
+
+AWARNING
+
+Hazardous voltages and high speed moving
+parts.
+
+Can cause death, severe personal injury, or
+property damage.
+
+Read instruction manual. All work must be per-
+formed with the breaker completely de-ener-
+gized and the springs discharged. Limit work to
+qualified personnel.
+
+Circuit Breaker Overhaul
+
+Table 5 lists the recommended overhaul schedule for type
+38-BAF circuit breakers operating under ANSI usual conditions.
+When actual operating conditions are more severe, overhaul
+periods should occur more frequently. The counter on the front
+panel of the circuit breaker records the number of operations.
+
+Breaker Type Number of
+Closing Operations
+38-3AF 30,000
+
+Table 5 Overhaul Schedule
+ANSI Usual Conditions
+Maintenance Based Upon Number of Closing Operations
+
+Replacement at Overhaul
+The following components are replaced during an overhaul of
+the circuit breaker, when required:
+
+Vacuum interrupters as determined by vacuum integrity
+test, contact erosion, or after 30,000 operations.
+
+Spring Release Coil, 52SRC
+
+Shunt Trip Coil, 52T
+
+Trip Free Drive Bar Mechanism
+
+When these parts are changed, locking devices must also be
+removed and replaced. These include lock washers, retaining
+rings, retaining clips, spring pins, cotter pins, etc.
+
+1.
+
+2.
+
+30
+
+Replace Vacuum Interrupter, instructions follow.
+
+Spring Release Coil (62SRC) and Shunt Trip Coil (627).
+
+a. Remove two “push on” terminal connections
+
+b. Remove two M4 hex head screws and dismount sole-
+noid drawing it towards you.
+
+c. Install replacement solenoids with two M4 hex head
+screws and replace "push on” terminals.
+
+d. Solenoid mounting screws must be installed using
+thread locking adhesive (Loctite #222, Siemens part
+15-133-281-007) and primer (Loctite primer T,
+Siemens part 15-133-281-005).
+
+3. Lubricate operating mechanism in accordance with
+instructions which follow.
+
+4. When work is finished operate circuit breaker (close/open}
+several times, and check that all screw connections are tight.
+
+Replacement of Vacuum Interrupters
+
+Replacement interrupters are furnished as a complete assem-
+bly. They have been completely tested and are dielectrically
+and mechanically conditioned.
+
+It is recommended that one interrupter be removed and replaced
+completely rather than removing two or more interrupters at a
+time. The following procedure in check list format describes the
+procedure for removing and replacing a vacuum interrupter.
+Components may be identified by reference to Figures 41 and 42.
+
+1. Removing the interrupter
+
+Note: Special care needs to be exercised in removal or
+installation of hardware around the bottom, or movable
+contact end, of the vacuum interrupter.
+
+The movable contact uses a metal bellows to maintain the
+vacuum seal while still permitting up and down motion of
+the contact. This bellows is rugged and reliable, and is
+designed to withstand years of vertical movement.
+However, care should be exercised to avoid subjecting the
+bellows to excessive torque during removal and replace-
+ment. Twisting the bellows through careless bolt removal or
+tightening may damage the vacuum interrupter.
+
+1.1 Before starting work, the circuit breaker should be iso-
+lated from all primary and control power sources and
+all stored energy discharged by tripping, closing, and
+tripping the breaker by hand. Discharge any static
+charge by grounding all end and center metal sections
+of the vacuum interrupter. Carefully remove exterior
+and interphase barriers.
+
+1.2 Loosen the lateral bolt(s) on terminal clamp (29.2).
+Refer to Figure 42 and employ the illustrated proce-
+dure to loosen clamp hardware. (6 or 8mm hex key
+and 13 or 16mm socket).
+
+1.3 Withdraw pin (48.5) from insulating coupler (48) and
+levers (48.6).
+
+1.4 Remove coupling pin from the eye bolt (36.3)
+
+1.5 Free struts (28) from the upper pole support (20).
+Loosen the strut hardware on the lower support (40)
+and swing the struts forward and downward (16mm
+open end wrench and 16mm socket).
+
+1.6 Loosen screws which secure the centering ring (28.1)
+(10mm open end).
+
+1.7 Remove bolt (31.2), lockwasher and large washer at
+stationary contact of the vacuum interrupter (24mm
+socket). Carefully note location of the conductive
+spacer between interrupter and pole support. This
+spacer has a concave surface which must be handled
+with care to avoid damage.
+
+===== PAGE 33 =====
+Overhaul —
+
+1.8 Using a deep 24mm socket, loosen and remove hex
+capscrew fastening the upper pole support to the
+post insulator. Completely remove the upper pole
+support and set aside.
+
+1.9 Grasp the vacuum interrupter (30) and withdraw verti-
+cally. Assistance may be required to work the terminal
+clamp off the movable stem of the tube. FORCIBLE
+TWISTING EFFORT IS NOT ALLOWED. if the termi-
+nal clamp cannot be easily removed, STOP, check to
+be certain hardware is loose, and the clamp is not
+binding.
+
+2. Installing an Interrupter
+
+NOTE: Replacement interrupter (30) will be received from
+the factory with an eyebolt (36.3) in place, adjusted and
+torqued to specific requirements. DO NOT ALTER THE
+ADAPTER SETTING.
+
+2.1 Inspect ail silver plated connection surfaces for cleanli-
+ness. Clean only with a cloth and solvent. Do not
+abraid.
+
+2.2 Insert interrupter. (30) in the lower pole support (40)
+with the evacuation nipple (P) facing the mechanism
+housing. Slip terminal clamp (29.2) into position on the
+movable stem.
+
+Position of Torque Wrench to Avoid Undue Stressing
+of Moving Terminal 36.1
+
+— Vacuum Interrupter 30
+
+Holding Wrench Terminal 36.1
+
+Terminal Clamp 29.2
+
+P = Direction of Force
+
+Shee
+°7 1 16.1
+y
+30 ——™ J 7
+_ t P
+28 —_|
+i
+28.1]
+259.35 ‘a
+29.1 ik
+Ea 36.1
+29.2 FA
+LA Wh esc 43
+2g /, Li 48.9
+36.3 / | 48.4
+40 48.6 48.5
+
+Figure 41. Vacuum Tube Replacement illustration
+
+Figure 42. {Illustration Showing Required Technique for
+Fastening Terminal Clamp Hardware
+
+2.3 Install the conductive spacer between the fixed
+(upper) terminal of the vacuum interrupter (30) and
+the upper pole support (20), with the concave side of
+the spacer facing the vacuum interrupter. Align and
+fasten “finger tight” using heavy flat washer, lock
+washer and nut, (31.2).
+
+2.4 Fasten the upper pole support to the post insulator
+using finger pressure only using a hex head (M16)
+bolt, lock washer and flat washer.
+
+2.5 Attach struts (28) to the upper pole support (20) replace
+hardware (M10), but do not tighten at this time.
+
+2.6 Couple levers (48.6) to the eyebolt (36.3), using the
+pin supplied. Apply retention clips. Appropriate pin is
+modestly chamfered, not to be confused with pin for
+the insulated coupler.
+
+2.7 Raise terminal clamp (29.2) against the spacer (29.3)
+on the movable terminal of the vacuum tube (36.1)
+and position the interrupter (30) so that its groove
+faces the connecting surface of flexible strap (29.1).
+Refer to Figure 42 and employ the technique illustrated
+to fasten the terminal clamp. Note opposing wrenches.
+Tighten the bolt(s) of the terminal clamp to a torque of
+AO Nm (30 ft. Ibs.), taking care to see that the terminal
+of the interrupter is not subjected to excessive bending
+movement.
+
+NOTE: Excessive bending movement exerted while fasten-
+ing the terminal clamp will damage the vacuum interrupter.
+
+2.8 Align pole support (20) correctly and tighten bolt fas-
+tening it to the post insulator. Fasten securely all bolts
+associated with struts (28).
+
+31
+
+===== PAGE 34 =====
+Overhaul
+
+4.
+
+32
+
+2.9 Tighten interrupter fastening bolt (31:2) on the upper
+pole support (20) holding the interrupter firmly by its
+upper insulator and operate levers (48.6), by hand, to
+see whether the movable contact moves freely. If any
+binding or lack of freedom is noted, loosen bolt (31.2)
+and adjust the interrupter in pole support by turning
+the interrupter and moving it slightly.
+
+2.10 The centering ring (28.1) has been loose and
+“floating” during installation of the vacuum interrupter.
+Check that the movable contact is free to move vertically
+without binding, and then tighten the hardware which
+secures the centering ring. Recheck that the movable
+contact is free to move vertically without binding.
+
+2.11 Attach insulating coupler (48) and lever (48.6) together,
+using pin (48.5). Apply retaining clips. Correct pin has
+ends which have been generously chamfered.
+
+2.12 Open and close breaker several times and then check
+to see that all bolted joints and devices are tight.
+
+Checking the Contact Stroke
+3.1 Open the circuit breaker.
+
+3.2 Free insulating coupler (48) by removing pin (48.5).
+The interrupter contacts must now close automatical-
+ly as a consequence of atmospheric pressure.
+
+3.3 Observe the terminal clamp (29.2) through the open-
+ings on each side of the lower pole support (40).
+Using vernier calipers measure the distance from the
+bottom surface of the terminal clamp to the bottom
+edge of the cutout opening. Measure carefully and
+record your result.
+
+3.4 Connect the insulating coupler (48) using pin (48.5)
+and the retaining clips provided.
+
+3.5 Repeat the measurement described in step 3.3 again
+with care to maximize accuracy. Record your result.
+
+3.6 Determine difference between the measurements
+made under steps 3.3 and 3.5. Your result should be
+19-20mm (0.748-0.787 in.)
+
+3.7 If you fail to achieve the listed results, carefully repeat
+the entire procedure making certain of your measure-
+ments.
+
+3.8 Loosen locking nut on eyebolt on insulated coupler
+(48), and retain position of the eye. Make adjustments
+in one-half turn increments. After adjustment is com-
+pleted, tighten eyebolt locking nut to 26-34 ft-lb. (35-
+45 Nm).
+
+After eyebolt is tightened to proper torque, repeat all mea-
+surement procedures, making certain they are in agree-
+ment with values indicated in 3.6.
+
+Complete all other maintenance procedures. Completely
+reassembled breaker should pass high potential test
+before it is ready for service.
+
+‘Hydraulic. Shock Absorber
+
+The type 38-3AF mechanism is equipped with hydraulic shock
+absorber and a stop bar.that functions when the breaker opens.
+See Figure 15. The shock absorber (61.8) should require no
+adjustment. However, at maintenance checks, the shock
+absorber. should be examined for evidence of leaking. If evidence
+of fluid leakage is found, the shock absorber must be.replaced to
+prevent damage to the. vacuum interrupter bellows.
+
+===== PAGE 35 =====
+Maintenance and Troubleshooting
+
+Sub-Assembly
+
+tem
+
+Inspect For
+
+Primary Power Path
+
+Vacuum Interrupter
+
+. Cleanliness
+_ Contact erosion. Note: Perform with Manual Spring Checks
+
+. Vacuum integrity. Note: Perform with High Potential Tests
+
+Primary Disconnects
+
+. Burnt or damaged fingers
+
+. Lubrication of contact surfaces.
+
+Vacuum Interrupter Contact
+
+_ Record contact resistance with contacts closed, and re-check each year
+
+Resistance to monitor condition.
+Interrupter Operator Mechanism] Cleanliness . Dirt or foreign material
+Fasteners . Tightness of nuts and other locking devices.
+
+Manual Spring Check
+
+_ Smooth operation of manual charging, and manual closing and trip-
+
+ping
+Lubrication . Evidence of excessive wear
+. Lubrication of wear points
+Electrical Controls Wiring _ Mechanical damage or abrasion
+
+Terminals and Connectors
+
+. Tightness and absence of mechanical damage
+
+Close and Trip Solenoids, Anti-Pump
+Relay, Auxiliary Switches, Secondary
+Disconnect
+
+. Automatic charging
+
+. Close and trip with control power
+
+High Potential Test
+
+Primary Circuit to Ground and between
+Primary Disconnects
+
+. 60 second withstand, 60kV, 60 Hz (85kV DC)
+
+Contro! Circuit to Ground
+
+. 60 second withstand, 1500V, 60 Hz
+
+Insulation
+
+Barriers and all Insulating Components
+
+. Cleanliness
+
+_ Cracking, crazing, tracking, or other sign of deterioration
+
+Table 6. Periodic Maintenance and Lubrication Tasks
+
+33
+
+===== PAGE 36 =====
+Maintenance and Troubleshooting
+
+Problem
+
+Symptoms
+
+Possible Causes and Remedies
+
+Breaker fails to close
+
+Closing springs will not
+automatically charge
+
+1. Secondary control circuit is de-energized or control circuit fuses are
+blown. Check and energize or replace if necessary
+
+2. Secondary disconnect contacts 15 or 16 are not engaging. Check
+and replace if required.
+
+3. Damage to wiring, terminals or connectors. Check and repair as
+necessary.
+
+4. Failure of charging motor (88) Replace if required.
+
+5. Motor cut-off switch LS21 or LS22 fails to operate. Replace if nec-
+essary.
+
+6. Mechanical failure of operating mechanism. Refer to factory or
+authorized service shop.
+
+Closing springs charge, but breaker
+does not close
+
+© Closing coil, or solenoid (52SRC)
+fails to energize. No sound of
+breaker closing.
+
+© Closing coil energizes. Sound of
+breaker closing is heard, but
+breaker contacts do not close.
+
+1. Secondary control circuit de-energized or control circuit fuses blown.
+Correct as indicated.
+
+2. No closing signal to secondary disconnect pin 13. Check for continu-
+ity and correct relay logic.
+
+3. Secondary disconnect contacts 13 or 15 are not engaging. Check
+and correct as required.
+
+4. Failure of antipump relay (52Y) contacts 21-22 or 31-32 or 13-14.
+Check and replace as required.
+
+5. Failure of close coil (solenoid) (52SRC). Check and replace as
+required.
+
+6. Auxiliary switch NC contacts 41-42 are open when breaker contacts
+are open. Check linkage and switch. Replace or adjust as necessary.
+
+7. Spring charged switch LS9 NO contacts remains open after springs
+
+are charged. Check and replace as required.
+
+1. Mechanical failure of operating mechanism. Check and contact fac-
+tory or authorized service shop.
+
+Table 7. Troubleshooting
+
+34
+
+
+===== PAGE 37 =====
+Maintenance and Troubleshooting
+
+Problem
+
+Symptoms
+
+Possible Causes and Remedies
+
+Nuisance or false close
+
+Electrical problem
+
+Nuisance or false closing signal to secondary disconnect contact 13.
+Check relay logic. Correct as required.
+
+Closing coil (52SRC) terminal A2 is shorted to ground. Check to
+determine if problems in wiring or coil. Correct as required.
+
+Mechanical Problem
+
+_ Mechanical failure of operating mechanism. Check and contact fac-
+
+tory or authorized service shop.
+
+Circuit breaker will not trip
+
+Tripping coil, or solenoid (521) does not
+energize. There is no tripping sound.
+
+. Secondary control power is de-energized or control power fuses are
+
+. Damage to wiring, terminals or connectors. Check and repair as
+
+. No tripping signal to secondary disconnect contact 1. Check for con-
+
+. Secondary disconnect contacts 1 or 2 are not engaging. Check and
+
+. Failure of trip coil (527). Check and replace if necessary.
+
+. Auxiliary switch NO contacts 23-24 or 33-34 are open when breaker
+
+blown. Correct as indicated.
+
+necessary.
+
+tinuity and correct relay logic.
+
+replace if required.
+
+is closed. Check linkage and switch. Replace or adjust as necessary.
+
+Tripping coil (52T) energizes. No trip-
+ping sound is heard, and breaker
+contacts do not open (ie., they
+remain closed).
+
+. Failure of tripping spring or its mechanical linkage. Check and
+
+replace if required.
+
+Tripping coil (527) energizes. Tripping
+sound is heard, but breaker contacts
+do not open.
+
+. Mechanical failure of operating mechanism. Check and contact fac-
+
+_ One or more of the vacuum interrupters are held closed. Check and
+
+tory or authorized service shop.
+
+replace as necessary.
+
+Nuisance or false trip
+
+Electrical problem
+
+. Tripping signal remains energized on secondary disconnect contact
+
+4. Check for improper relay logic.
+
+Mechanical problem
+
+. Mechanical failure of operating mechanism. Check and contact fac-
+
+tory or authorized service shop.
+
+Table 7. Troubleshooting
+
+35
+
+===== PAGE 38 =====
+Appendix
+
+Table A-1
+Type 38-3AF Circuit Breaker Ratings
+
+Identification Rated Values Rated Required Capabilities
+Nominal} Nominal Voltage insulation Level Current Current Values
+Voltage | 3-Phase}| Rated | Rated | Rated Withstand | Rated | Rated Rated | Rated | Rated Max. | 3-Sec. Closing and
+Class MVA Max. } Voltage Test Voltage Cont. | Short Inter- | Permis-| Max. Sym. Short Latching
+Class |} Voltage | Range Current | Circuit | rupting} sible | Voltage} Inter Time Capability
+@ @ Factor @® Current | Time | Tripping} Divided | rupting | Current} (Momentary)
+(63) {at rated delay | by K | Capability} Carrying
+Max kV) Y @ | Capability
+Low | Impulse ® © KTimes Rated | 16K | 27K
+Frequency Short Circuit Times | Times
+Current Rated | Rated
+KI “Short | Short
+
+Circuit | Circuit
+Current } Current
+
+Circuit
+Breaker MVA E kV | E/K
+Type |kVClass} Class | kVrms K kVrms | Crest Amps | kAmms | Cycles Sec. | kVrms | kArms] kArms | kArms | kA Crest
+383AF-| 38 — 38 1.0 80 150 1200 | 315 5 2 38 315 31.5 50 85
+31 2000
+3000 @|
+38-3AF-| 38 1500 38 1.65 80 150 1200 21 5 2 23 35 35 56 95
+1500 2000 ,
+3000 @
+1. Included for reference only (no longer shown in ANS! C37.06)
+2. Maximum voltage for which the breaker is designed and the upper limit for operation.
+3. Kis the ratio of rated maximum voltage to the lower limit of the range of operating voltage in which the required symmetrical
+and asymmetrical interrupting capabilities vary in inverse proportion to the operating voltage.
+4, 2000 ampere units available with increased fan-cooled rating of 3000 amperes.
+5. To obtain the required symmetrical interrupting capability of a circuit breaker at an operating voltage between 1/K times rated
+
+7.
+
+maximum voltage and rated maximum voltage, the following formula shall be used:
+Rated Maximum Voltage
+
+Operating Voltage
+For operating voltages below 1/K times rated maximum voltage, the required symmetrical interrupting capability of the circuit
+breaker shall be equal to K times rated short circuit current.
+With the limitation stated in 5.10 of ANSI Standard C37.04-1979, all values apply for polyphase and line-to-line faults. For single
+phase-to-ground faults, the specific conditions stated in 5.10.2.3.0f ANS! Standard C37.04-1979 apply.
+Current values in this column are not to be exceeded even for operating voltages below 1/K times rated maximum voltage. For
+voltages between rated maximum voltage and 1/K times rated maximum voltage, follow 5 above.
+
+Required Symmetrical Interrupting Capacity = Rated Short Circuit Current x
+
+8. Current values in this column are independent of operating voltage up to and including rated maximum voltage.
+9. Ratings in accordance with ANSI C37.06-1987.
+10. Ratings in accordance with propsed ANSI C37.06-199x. (proposed)
+Table A-2
+Type 38-3AF Circuit Breaker Control Data
+Control Voltages, ANSI C37.06 Table 10 Spring Charging Motor
+Close Coil Trip Coil .
+Nominal Range Amperes Charging
+Close Trip Amperes @ Amperes @ Run (avg.) @ Seconds
+48 VDC 38-56 28-56 2.1 20 8 10
+125 VDC 400-140 70-140 1.0 5.4 4 10
+250 VDC 200-280 140-280 0.5 2.1 2 10
+120 VAC 104-127 104-127 0.9 — @ 6 10
+240 VAC 208-254 208-254 0.4 — ® 3 10
+1. Current at nominal voltage. 2. Capacitor trip
+
+36
+
+===== PAGE 39 =====
+Appendix
+
+a
+
+Table A-3 Table A-4
+Interrupting Capacity Auxiliary Switch Contacts Circuit Breaker Weights
+Type Auxiliary Switch “Current Control Circuit Voltage Breaker ae Lbs. ka) ©
+Amperes | 420 vac | 240 VAC | 48 voc | 125 VDC | 250 VDC Type (Continuous Current, Amperes
+Non-Inductive Circuit Interrupting Capacity in Amperes 1200A |_2000A 3000A
+Breaker Auxiliary 30 10 5 ro) 5 3 38-3AF | 780 (355)) 880 (400) | 880 (400)
+TOC Auxiliary Switch 15 15 10 0.5 0.5 0.2 1. For shipping, add 100 Ibs (45kg).
+MOC Auxiliary 20 15 10 10 10 5
+inductive Circuit Interrupting Capacity in Amperes
+Breaker Auxiliary Switch 20 10 5 20 @ 5 3
+TOC Auxiliary Switch 15 15 10 0.5 0.5 0.2
+MOC Auxiliary 20 15 10 10 10 5
+1. 2 Contacts in series
+Table A-5
+Selected Spare Parts Listing
+Type 38-3AF Vacuum Circuit Breakers
+Description Part No. Quantity per Breaker
+Close Coil 48 VDC 18-741-745-506 1
+125 VDC/120 VAC 18-741-745-507 1
+250 VDC/240 VAC 18-741-745-508 1
+Trip Coil 48 VDC 18-809-123-501 1
+125 VDC/120 VAC 18-741-745-503 1
+250 VDC/240 VAC 18-741-745-504 1
+Anti-Pump Relay 48 VDC 15-172-275-002 1
+125 VDC 15-172-275-003 1
+250 VDC 15-172-275-004 1
+120 VAC 15-172-275-005 1
+240 VAC 15-172-275-006 1
+Spring Charging Motor 48 VDC 18-480-848-001 1
+125 VDC/120 VAC 18-480-848-002 1
+250 VDC/240 VAC 18-480-848-003 1
+Limit Switches LS41 (Spring charged) 18-809-506-501 1
+LS21 or LS22 (Motor circuit) 18-809-506-502 2
+LS3 or LS9 (Anti-Pump circuit) 18-809-506-503 2
+Auxiliary switch 33-101-600-022 1
+Vacuum interrupter Assembly (VS30030) 18-737-104-511 3
+Breaker secondary disconnect assembly 18-814-029-501 1
+Primary disconnect finger assembly 1200A 18-816-350-503 6
+2000A 18-816-350-502 6
+
+37
+
+===== PAGE 40 =====
+Siemens Energy
+
+S i E Mi E N S & Automatiom, Inc.
+Switchgear & Motor Control!
+Division
+P.O. Box 29503
+Raleigh, NC 27626-0503
+
+Bulletin SG-3528 (new) 1M O694FP Printed in U.S.A. © 1994 Siemens Energy & Automation, inc.
+Siemens is a registered trademark of Siemens AG.

@@ -1,0 +1,14 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[functions]
+  # Bundle the document corpus so the query function can read it at runtime.
+  included_files = ["data/docs.json", "data/siemens.txt", "data/ieee.txt"]
+  node_bundler = "esbuild"
+
+# Friendly path for the query endpoint.
+[[redirects]]
+  from = "/api/query"
+  to = "/.netlify/functions/query"
+  status = 200

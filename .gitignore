@@ -1,0 +1,7 @@
+node_modules/
+.env
+.netlify/
+.DS_Store
+data/sie_pages/
+data/figure15_raw-*.png
+npm-debug.log
