@@ -32,7 +32,7 @@ wait for css:.a-body
 hold 5s
 
 GEORGE
-So you just ask. In plain English — how do I manually charge the closing spring? Behind the scenes that scanned manual was read by OCR, character by character, so the text could be recovered at all. Now an AI answers from that text and only that text. No invented specifications. And it tells you the page it came from, so you can go check it yourself.
+So here's the first thing you can do — just ask it, in plain English. How do I manually charge the closing spring? Behind the scenes, that Siemens manual was a scan — no searchable text at all — so it was read by OCR, character by character, just to recover the words. Now the answer comes straight from that text, and only that text. No invented numbers. And it cites the page it came from, so you can go and check it yourself.
 
 DISSOLVE TO:
 
@@ -48,7 +48,7 @@ hold 3s
 zoom out
 
 GEORGE
-Then there are the figures. This is Figure 15 — the stored energy operating mechanism, a scanned photograph with three dozen numbered callouts. Here, every number is clickable. Click sixty-two, and it tells you: that's the closing spring, and what it does. The legend you used to hunt for is now under your cursor.
+Now, the diagram explorer. This is Figure 15 — the stored energy operating mechanism — a scanned photograph with three dozen numbered callouts. Every one of them is clickable. Click sixty-two, and the panel tells you: that's the closing spring, and what it does. The legend you used to hunt through is right there under your cursor.
 
 DISSOLVE TO:
 
@@ -66,7 +66,7 @@ hold 3s
 zoom out
 
 GEORGE
-Figure 17 is the operating sequence — how the breaker closes and trips, drawn as a flowchart of cryptic device codes. Click a step, the shunt trip coil, fifty-two T, and it decodes the shorthand into plain English. Every box in the diagram, translated.
+Back in the explorer, open Figure 17 — the operating sequence. How the breaker closes, and how it trips, drawn as a flowchart of cryptic device codes. Click a step — the shunt trip coil, fifty-two T — and it decodes the shorthand into plain English. Every box in the diagram, translated.
 
 DISSOLVE TO:
 
