@@ -8,3 +8,5 @@ npm-debug.log
 film/frames/
 film/*.mp4
 film/*.srt
+film/assets/*.wav
+film/assets/*.mp4

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<style>
+  :root{ --bg:#0f1419; --ink:#e7edf3; --muted:#94a3b8; --accent:#4aa3ff; --amber:#ffb020; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ width:100%; height:100%; overflow:hidden; background:
+     radial-gradient(1200px 700px at 72% 38%, #16202c 0%, var(--bg) 60%); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  .stage{ position:absolute; inset:0; }
+
+  /* --- the looming pile, lower-right --- */
+  .pile{ position:absolute; right:12%; bottom:8%; width:430px; height:560px; transform-origin:bottom center; animation:sway 7s ease-in-out infinite; }
+  .sheet{
+    position:absolute; left:50%; width:300px; height:388px; background:#f4f2ec;
+    border-radius:6px; box-shadow:0 18px 40px rgba(0,0,0,.5);
+    padding:26px 24px; transform:translateX(-50%) translateY(-40vh) rotate(0deg); opacity:0;
+    animation:drop .7s cubic-bezier(.2,.7,.3,1) forwards;
+  }
+  .sheet .ln{ height:6px; border-radius:3px; background:#cfcabb; margin:0 0 11px; }
+  .sheet .ln.s{ width:55%; } .sheet .ln.m{ width:78%; } .sheet .ln.l{ width:92%; }
+  .sheet .tag{ font:600 11px/1.2 ui-monospace,Menlo,monospace; color:#8a8577; letter-spacing:.5px; margin-bottom:14px; }
+  .sheet .grid{ margin-top:10px; display:grid; grid-template-columns:repeat(4,1fr); gap:5px; }
+  .sheet .grid i{ height:14px; background:#e2ddcf; border:1px solid #d2ccbb; border-radius:2px; display:block; }
+
+  /* stack them with rising offset + alternating tilt */
+  .sheet:nth-child(1){ bottom:0;   transform:translateX(-50%) rotate(-4deg); animation-delay:.15s; }
+  .sheet:nth-child(2){ bottom:26px; transform:translateX(-52%) rotate(3deg);  animation-delay:.45s; }
+  .sheet:nth-child(3){ bottom:54px; transform:translateX(-48%) rotate(-5deg); animation-delay:.75s; }
+  .sheet:nth-child(4){ bottom:84px; transform:translateX(-53%) rotate(4deg);  animation-delay:1.05s; }
+  .sheet:nth-child(5){ bottom:116px; transform:translateX(-47%) rotate(-3deg); animation-delay:1.35s; }
+  .sheet:nth-child(6){ bottom:150px; transform:translateX(-51%) rotate(6deg);  animation-delay:1.65s; }
+  .sheet:nth-child(7){ bottom:186px; transform:translateX(-49%) rotate(-6deg); animation-delay:1.95s; }
+  .sheet:nth-child(8){ bottom:224px; transform:translateX(-52%) rotate(5deg);  animation-delay:2.25s; }
+
+  @keyframes drop{ to{ opacity:1; transform:translateX(-50%) var(--rot,rotate(0deg)); } }
+  /* keyframe can't read per-child rotate cleanly, so re-declare final state per child */
+  .sheet:nth-child(1){ --rot:rotate(-4deg); } .sheet:nth-child(2){ --rot:rotate(3deg); }
+  .sheet:nth-child(3){ --rot:rotate(-5deg); } .sheet:nth-child(4){ --rot:rotate(4deg); }
+  .sheet:nth-child(5){ --rot:rotate(-3deg); } .sheet:nth-child(6){ --rot:rotate(6deg); }
+  .sheet:nth-child(7){ --rot:rotate(-6deg); } .sheet:nth-child(8){ --rot:rotate(5deg); }
+  .sheet:nth-child(n){ transform:translateX(-50%) translateY(-40vh) var(--rot); }
+
+  @keyframes sway{ 0%,100%{ transform:rotate(-1.2deg); } 50%{ transform:rotate(1.2deg); } }
+
+  /* a small "?" glint over the pile */
+  .q{ position:absolute; right:20%; top:16%; font:800 90px/1 Georgia,serif; color:var(--amber);
+     opacity:0; text-shadow:0 0 30px rgba(255,176,32,.5); animation:qin 1s ease 2.6s forwards, qfloat 5s ease-in-out 3.6s infinite; }
+  @keyframes qin{ from{ opacity:0; transform:translateY(14px) scale(.8);} to{ opacity:.9; transform:none; } }
+  @keyframes qfloat{ 0%,100%{ transform:translateY(0);} 50%{ transform:translateY(-10px);} }
+
+  /* --- title, left --- */
+  .copy{ position:absolute; left:8%; top:38%; max-width:44%; opacity:0; transform:translateY(16px); animation:up .9s ease .4s forwards; }
+  .kicker{ color:var(--amber); font:700 15px/1 system-ui; letter-spacing:.22em; text-transform:uppercase; margin-bottom:16px; }
+  .head{ color:var(--ink); font:650 46px/1.12 system-ui; letter-spacing:-.5px; }
+  .sub{ color:var(--muted); font:400 18px/1.5 system-ui; margin-top:16px; }
+  @keyframes up{ to{ opacity:1; transform:none; } }
+</style>
+</head>
+<body>
+  <div class="stage">
+    <div class="copy">
+      <div class="kicker">Spec Explorer</div>
+      <div class="head">Ask an engineering manual.<br>Explore its diagrams.</div>
+      <div class="sub">Two dense reference documents — one of them a scan you can't even search.</div>
+    </div>
+    <div class="q">?</div>
+    <div class="pile">
+      <div class="sheet"><div class="tag">IEEE Std C57.119</div><div class="ln l"></div><div class="ln m"></div><div class="ln l"></div><div class="ln s"></div><div class="ln m"></div><div class="ln l"></div></div>
+      <div class="sheet"><div class="ln m"></div><div class="ln l"></div><div class="grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="ln s"></div></div>
+      <div class="sheet"><div class="tag">SIEMENS · SG-3528</div><div class="ln l"></div><div class="ln l"></div><div class="ln m"></div><div class="ln s"></div><div class="ln l"></div></div>
+      <div class="sheet"><div class="ln s"></div><div class="ln l"></div><div class="ln m"></div><div class="ln l"></div><div class="ln l"></div><div class="ln m"></div></div>
+      <div class="sheet"><div class="tag">38kV VACUUM BREAKER</div><div class="ln m"></div><div class="ln l"></div><div class="ln s"></div><div class="grid"><i></i><i></i><i></i><i></i></div></div>
+      <div class="sheet"><div class="ln l"></div><div class="ln s"></div><div class="ln m"></div><div class="ln l"></div><div class="ln m"></div><div class="ln l"></div></div>
+      <div class="sheet"><div class="tag">TEMPERATURE RISE TESTS</div><div class="ln l"></div><div class="ln m"></div><div class="ln l"></div><div class="ln s"></div></div>
+      <div class="sheet"><div class="ln m"></div><div class="ln l"></div><div class="ln l"></div><div class="ln s"></div><div class="ln m"></div><div class="ln l"></div></div>
+    </div>
+  </div>
+</body>
+</html>

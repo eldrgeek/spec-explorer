@@ -7,15 +7,15 @@ format: 16:9
 theme: soma-dark
 default-transition: cut
 captions: on
+scene-gap: 0.5s
 
-MUSIC mood:warm-curious fade-in 2s
+MUSIC file:/Users/mikewolf/Projects/spec-explorer/film/assets/warm-bed.wav fade-in 2s duck: -14dB
 
 .BEAT 1 — The problem
 
-CARD title
-kicker: Spec Explorer
-# Ask an engineering manual. Explore its diagrams.
-cite: Siemens 38-3AF · IEEE C57.119
+CHROME
+open http://localhost:4200/docstack.html
+hold 4s
 
 GEORGE
 Every engineer knows this pile. A vacuum breaker manual, hundreds of pages, and a transformer standard written in the language of committees. The Siemens book is worse than dense — it's a scan. No selectable text, nothing you can search. You squint at a page and cross-reference a legend. Spec Explorer takes those two documents and makes them something you can actually use.
@@ -30,6 +30,8 @@ type "How do I manually charge the closing spring?" into css:#question
 click css:#askBtn
 wait for css:.a-body
 hold 5s
+
+SFX file:/Users/mikewolf/Projects/spec-explorer/film/assets/click.wav on css:#askBtn
 
 GEORGE
 So here's the first thing you can do — just ask it, in plain English. How do I manually charge the closing spring? Behind the scenes, that Siemens manual was a scan — no searchable text at all — so it was read by OCR, character by character, just to recover the words. Now the answer comes straight from that text, and only that text. No invented numbers. And it cites the page it came from, so you can go and check it yourself.
@@ -46,6 +48,9 @@ click css:.hotspot[data-id='62']
 zoom 1.4 on css:.part-detail
 hold 3s
 zoom out
+
+SFX file:/Users/mikewolf/Projects/spec-explorer/film/assets/click.wav on "Diagram explorer"
+SFX file:/Users/mikewolf/Projects/spec-explorer/film/assets/click.wav on css:.hotspot[data-id='62']
 
 GEORGE
 Now, the diagram explorer. This is Figure 15 — the stored energy operating mechanism — a scanned photograph with three dozen numbered callouts. Every one of them is clickable. Click sixty-two, and the panel tells you: that's the closing spring, and what it does. The legend you used to hunt through is right there under your cursor.
@@ -64,6 +69,9 @@ click css:.hotspot[data-id='T2']
 zoom 1.4 on css:.part-detail
 hold 3s
 zoom out
+
+SFX file:/Users/mikewolf/Projects/spec-explorer/film/assets/click.wav on "Figure 17"
+SFX file:/Users/mikewolf/Projects/spec-explorer/film/assets/click.wav on css:.hotspot[data-id='T2']
 
 GEORGE
 Back in the explorer, open Figure 17 — the operating sequence. How the breaker closes, and how it trips, drawn as a flowchart of cryptic device codes. Click a step — the shunt trip coil, fifty-two T — and it decodes the shorthand into plain English. Every box in the diagram, translated.
