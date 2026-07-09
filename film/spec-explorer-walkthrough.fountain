@@ -1,0 +1,94 @@
+Title: Spec Explorer — Product Walkthrough
+Credit: SOMA team
+Draft date: 2026-07-09
+
+SETTINGS
+format: 16:9
+theme: soma-dark
+default-transition: cut
+captions: on
+
+MUSIC mood:warm-curious fade-in 2s
+
+.BEAT 1 — The problem
+
+CARD title
+kicker: Spec Explorer
+# Ask an engineering manual. Explore its diagrams.
+cite: Siemens 38-3AF · IEEE C57.119
+
+GEORGE
+Every engineer knows this pile. A vacuum breaker manual, hundreds of pages, and a transformer standard written in the language of committees. The Siemens book is worse than dense — it's a scan. No selectable text, nothing you can search. You squint at a page and cross-reference a legend. Spec Explorer takes those two documents and makes them something you can actually use.
+
+DISSOLVE TO:
+
+.BEAT 2 — Ask the documents
+
+CHROME
+open http://localhost:4200
+type "How do I manually charge the closing spring?" into css:#question
+click css:#askBtn
+wait for css:.a-body
+hold 5s
+
+GEORGE
+So you just ask. In plain English — how do I manually charge the closing spring? Behind the scenes that scanned manual was read by OCR, character by character, so the text could be recovered at all. Now an AI answers from that text and only that text. No invented specifications. And it tells you the page it came from, so you can go check it yourself.
+
+DISSOLVE TO:
+
+.BEAT 3 — Figure 15, the mechanism
+
+CHROME
+open http://localhost:4200
+click "Diagram explorer"
+hold 1s
+click css:.hotspot[data-id='62']
+zoom 1.4 on css:.part-detail
+hold 3s
+zoom out
+
+GEORGE
+Then there are the figures. This is Figure 15 — the stored energy operating mechanism, a scanned photograph with three dozen numbered callouts. Here, every number is clickable. Click sixty-two, and it tells you: that's the closing spring, and what it does. The legend you used to hunt for is now under your cursor.
+
+DISSOLVE TO:
+
+.BEAT 4 — Figure 17, the sequence
+
+CHROME
+open http://localhost:4200
+click "Diagram explorer"
+click "Figure 17"
+hold 1s
+scroll to css:.hotspot[data-id='T2']
+click css:.hotspot[data-id='T2']
+zoom 1.4 on css:.part-detail
+hold 3s
+zoom out
+
+GEORGE
+Figure 17 is the operating sequence — how the breaker closes and trips, drawn as a flowchart of cryptic device codes. Click a step, the shunt trip coil, fifty-two T, and it decodes the shorthand into plain English. Every box in the diagram, translated.
+
+DISSOLVE TO:
+
+.BEAT 5 — Close
+
+CARD title
+kicker: Two documents · one place
+# Ask it. Explore it.
+## spec-explorer-esr.netlify.app
+cite: Siemens 38-3AF · IEEE C57.119
+
+GEORGE
+Two documents that used to mean squinting and cross-referencing. Now you ask them a question, and you explore them by hand. It's live, at spec-explorer-esr.netlify.app.
+
+DISSOLVE TO:
+
+.BEAT 6 — Credits
+
+CARD title
+kicker: Spec Explorer
+# Made by the SOMA team
+## Mike Wolf · Claude (Opus 4.8) · voice: George
+cite: 2026
+
+MUSIC out fade 1.5s

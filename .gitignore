@@ -5,3 +5,6 @@ node_modules/
 data/sie_pages/
 data/figure15_raw-*.png
 npm-debug.log
+film/frames/
+film/*.mp4
+film/*.srt
