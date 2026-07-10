@@ -9,9 +9,9 @@ default-transition: cut
 captions: on
 scene-gap: 0.5s
 
-MUSIC file:/Users/mikewolf/Projects/spec-explorer/film/assets/warm-bed.wav fade-in 2s duck: -14dB
-
 .BEAT 1 — The problem
+
+MUSIC file:/Users/mikewolf/Projects/spec-explorer/film/assets/warm-bed.wav fade-in 2s duck: -14dB
 
 CHROME
 open http://localhost:4200/docstack.html
@@ -50,6 +50,7 @@ hold 3s
 zoom out
 
 SFX file:/Users/mikewolf/Projects/spec-explorer/film/assets/click.wav on "Diagram explorer"
+
 SFX file:/Users/mikewolf/Projects/spec-explorer/film/assets/click.wav on css:.hotspot[data-id='62']
 
 GEORGE
@@ -71,6 +72,7 @@ hold 3s
 zoom out
 
 SFX file:/Users/mikewolf/Projects/spec-explorer/film/assets/click.wav on "Figure 17"
+
 SFX file:/Users/mikewolf/Projects/spec-explorer/film/assets/click.wav on css:.hotspot[data-id='T2']
 
 GEORGE
