@@ -10,3 +10,6 @@ film/*.mp4
 film/*.srt
 film/assets/*.wav
 film/assets/*.mp4
+
+# private: real conversation footage — never publish
+making-of/
